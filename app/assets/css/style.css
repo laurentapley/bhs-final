@@ -23,8 +23,7 @@ body {
 
 body,
 html {
-  min-height: 100vh;
-  overflow: hidden; }
+  min-height: 100vh; }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -448,8 +447,74 @@ button.icon {
   width: 150px;
   height: 30px; }
 
-.nav ul {
-  list-style: none; }
+.top-nav {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  font-size: 14px; }
+
+.top-nav li {
+  display: inline;
+  padding-left: 3px; }
+
+.top-nav li::before {
+  content: "|";
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.top-nav li:first-child:before {
+  content: " "; }
+
+.top-nav a {
+  text-decoration: none;
+  color: #ffffff; }
+
+/*================================
+=            Main Nav            =
+================================*/
+nav {
+  border-top: 15px solid #666666;
+  border-bottom: 15px solid #666666;
+  background-color: #f5f4f4;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: -75px; }
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 90px; }
+  nav li a {
+    display: block;
+    color: #000000;
+    padding: 0px 20px;
+    text-decoration: none; }
+  nav li {
+    float: left; }
+
+nav a:hover {
+  background-color: #c9c9c9; }
+
+/*nav li a:after {
+  content: "|";
+}
+*/
+/*==================================
+=            Breadcrumb            =
+==================================*/
+.breadcrumb-container {
+  background-color: #ffffff; }
+  .breadcrumb-container .breadcrumb {
+    float: right;
+    padding-right: 15px;
+    list-style: none;
+    font-size: 1em; }
+    .breadcrumb-container .breadcrumb a {
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 0 10px 10px;
+      display: inline; }
+    .breadcrumb-container .breadcrumb li {
+      float: left; }
 
 .sidebar {
   width: 265px;
@@ -547,7 +612,7 @@ article .article-content {
 .content-container {
   background-color: #fbfbfb;
   padding-bottom: 20px;
-  margin-top: -45px; }
+  margin-top: 175px; }
 
 .main {
   width: 675px;
@@ -568,10 +633,9 @@ article .article-content {
   margin: auto;
   display: block; }
 
-/*.since-1973 {
-  color: $white;
-}
-*/
+.since-1973 {
+  color: #ffffff; }
+
 .prevention {
   font-family: serif;
   color: #d4740d;
@@ -582,7 +646,7 @@ article .article-content {
   background-color: #0c2745;
   color: #666666; }
   .footer div {
-    float: left;
+    display: inline-block;
     width: 25%;
     padding-left: 15px; }
     .footer div h4 {
@@ -598,6 +662,20 @@ article .article-content {
       margin-top: 40px; }
       .footer div.logos-footer img {
         padding: 5px; }
+    .footer div section .adp-logo {
+      position: absolute;
+      top: 25px;
+      left: 30px;
+      position: absolute;
+      top: 25px;
+      left: 30px; }
+    .footer div section .cart-logo {
+      position: absolute;
+      top: 20px;
+      left: 135px;
+      position: absolute;
+      top: 20px;
+      left: 135px; }
 
 .copyright {
   color: #ffffff;

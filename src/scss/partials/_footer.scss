@@ -3,7 +3,7 @@
     background-color: $blueZodiac;
     color: $doveGray;
     div {
-        float: left;
+        display: inline-block;
         width: 25%;
         padding-left: 15px;
         h4 {
@@ -20,6 +20,24 @@
             margin-top: 40px;
             img {
                 padding: 5px;
+            }
+        }
+        section {
+            .adp-logo {
+                position: absolute;
+                top: 25px;
+                left: 30px;
+                position: absolute;
+                top: 25px;
+                left: 30px;
+            }
+            .cart-logo {
+                position: absolute;
+                top: 20px;
+                left: 135px;
+                position: absolute;
+                top: 20px;
+                left: 135px;
             }
         }
     }
