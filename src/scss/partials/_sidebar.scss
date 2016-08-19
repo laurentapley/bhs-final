@@ -83,15 +83,6 @@ a.donate {
     margin-top: 10px;
 }
 
-//   .fb-like {
-//   margin-left: 20px;
-//   margin-top: 10px;
-//   float: left;
-// }
-// .fb-share {
-//   margin-left: 40px;
-//   margin-top: 10px;
-// }
 article {
     h2,
     .two {
@@ -117,4 +108,107 @@ article {
     color: $mercury;
     font-size: 10px;
     font-weight: 100;
+}
+
+
+/*----------  ASIDE  ----------*/
+
+.aside-box {
+    p {
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    img {
+        float: left;
+        margin-top: 8px;
+        padding-left: 10px;
+    }
+}
+
+hr.article-hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.article-nav {
+    background: none;
+}
+
+.dateText {
+    color: #000;
+    font-size: 11px;
+}
+
+.authorText {
+    color: $bon-jour;
+    font-size: 11px;
+}
+
+
+/* ASIDE */
+
+aside {
+    width: 291px;
+    margin-right: 12px;
+    float: right;
+    height: 294px;
+    h2.since1973 {
+        background: transparent url(../img/heading-since-1973.png) no-repeat;
+        width: 152px;
+        height: 42px;
+        margin: 16px 10px 0 140px;
+        padding: 10px;
+        position: inherit;
+    }
+}
+
+.aside-box.boxed {
+    // background-color: $concrete;
+    background-color: tint($concrete, 10%); // Sass Function
+    padding: 5px;
+    border: 1px solid $gallery;
+    margin-bottom: 10px;
+}
+
+a.moreinfo {
+    text-decoration: underline;
+    color: $chathams-blue;
+    float: right;
+}
+
+.boxed {
+    p {
+        overflow: hidden;
+    }
+}
+
+
+/* ASIDE MEDIA */
+
+.get-involved {
+    display: none;
+}
+
+.fbimg {
+    width: 100%;
+    max-width: 238px;
+    max-height: auto;
+}
+
+.donate-btn-btm {
+    img {
+        width: 100%;
+        align: center;
+        max-width: 242px;
+        max-height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+.buttons {
+    width: 270px;
+}
+
+.orange {
+    display: block;
 }

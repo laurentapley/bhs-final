@@ -2,6 +2,7 @@
     height: 200px;
     background-color: $blueZodiac;
     color: $doveGray;
+    position: relative;
     div {
         display: inline-block;
         width: 25%;
@@ -17,27 +18,11 @@
             font-weight: normal;
         }
         &.logos-footer {
-            margin-top: 40px;
+            position: absolute;
+            top: 10px;
+            padding: 35px;
             img {
-                padding: 5px;
-            }
-        }
-        section {
-            .adp-logo {
-                position: absolute;
-                top: 25px;
-                left: 30px;
-                position: absolute;
-                top: 25px;
-                left: 30px;
-            }
-            .cart-logo {
-                position: absolute;
-                top: 20px;
-                left: 135px;
-                position: absolute;
-                top: 20px;
-                left: 135px;
+                padding: 25px;
             }
         }
     }
