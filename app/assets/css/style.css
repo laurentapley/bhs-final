@@ -393,8 +393,8 @@ textarea {
 
 .facebook-btn {
   position: absolute;
-  top: 20px;
-  left: 360px; }
+  top: 25px;
+  left: 400px; }
 
 .input-append {
   position: relative; }
@@ -402,7 +402,7 @@ textarea {
 .search-container {
   position: absolute;
   top: 25px;
-  left: 510px;
+  left: 540px;
   width: 258px;
   height: 37px; }
 
@@ -436,10 +436,16 @@ textarea {
   width: 150px;
   height: 30px; }
 
+.bhs-logo {
+  position: relative;
+  top: 10px;
+  left: 25px;
+  z-index: 10; }
+
 .top-nav {
   position: absolute;
   top: 15px;
-  left: 90px;
+  left: 110px;
   font-size: 14px; }
 
 .top-nav li {
@@ -462,15 +468,34 @@ textarea {
 =            Main Nav            =
 ================================*/
 nav {
-  margin: 0 auto;
-  background-color: #ffffff; }
-
-.navbar-nav {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  font-size: 18px;
+  background-color: #fbfbfb;
   width: 100%;
-  text-align: center; }
-  .navbar-nav > li {
-    float: none;
-    display: inline-block; }
+  border-top: #666666 solid 30px;
+  border-bottom: #666666 solid 30px; }
+
+.nav li {
+  display: inline;
+  padding-left: 3px; }
+
+.nav li::before {
+  content: "|";
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.nav li:first-child:before {
+  content: " "; }
+
+.nav li:first-child {
+  margin-left: 70px; }
+
+nav a {
+  text-decoration: none;
+  color: #666666;
+  margin: 15px; }
 
 .sidebar {
   width: 265px;
@@ -593,8 +618,8 @@ hr.article-hr {
 /* ASIDE */
 aside {
   width: 291px;
-  margin-right: 12px;
-  float: right;
+  margin-left: 65px;
+  float: left;
   height: 294px; }
   aside h2.since1973 {
     background: transparent url(../img/heading-since-1973.png) no-repeat;
@@ -643,7 +668,8 @@ a.moreinfo {
 .content-container {
   background-color: #fbfbfb;
   padding-bottom: 20px;
-  margin-top: 175px; }
+  margin: auto;
+  margin-top: 100px; }
 
 .main {
   width: 675px;
@@ -680,7 +706,8 @@ a.moreinfo {
   .footer div {
     display: inline-block;
     width: 25%;
-    padding-left: 15px; }
+    margin: 25px;
+    border: solid red 1px; }
     .footer div h4 {
       background-color: #091f37;
       height: 40px;
@@ -691,11 +718,11 @@ a.moreinfo {
       text-align: center;
       font-weight: normal; }
     .footer div.logos-footer {
-      position: absolute;
-      top: 10px;
-      padding: 35px; }
+      height: 100px;
+      position: absolute; }
       .footer div.logos-footer img {
-        padding: 25px; }
+        margin: 25px;
+        float: left; }
 
 .copyright {
   color: #ffffff;
