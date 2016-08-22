@@ -1,13 +1,15 @@
 .footer {
     height: 200px;
+    min-width: 1000px;
     background-color: $blueZodiac;
     color: $doveGray;
     position: relative;
     div {
-        display: inline-block;
-        width: 25%;
-        margin: 25px;
-        border: solid red 1px;
+        float: left;
+        width: 20%;
+        min-width: 220px;
+        margin: 10px;
+        color: $alabaster;
         h4 {
             background-color: $blackPearl;
             height: 40px;
@@ -20,9 +22,9 @@
         }
         &.logos-footer {
             height: 100px;
-            position: absolute;
+            width: 250px;
             img {
-                margin: 25px;
+                margin: 10px;
                 float: left;
             }
         }

@@ -622,8 +622,8 @@ aside {
   background-color: #fbfbfb;
   padding-bottom: 20px;
   margin: auto;
-  width: 1000px;
-  position: relative; }
+  position: relative;
+  min-width: 1000px; }
 
 .main {
   width: 1000px;
@@ -658,14 +658,16 @@ aside {
 
 .footer {
   height: 200px;
+  min-width: 1000px;
   background-color: #0c2745;
   color: #666666;
   position: relative; }
   .footer div {
-    display: inline-block;
-    width: 25%;
-    margin: 25px;
-    border: solid red 1px; }
+    float: left;
+    width: 20%;
+    min-width: 220px;
+    margin: 10px;
+    color: #fbfbfb; }
     .footer div h4 {
       background-color: #091f37;
       height: 40px;
@@ -677,9 +679,9 @@ aside {
       font-weight: normal; }
     .footer div.logos-footer {
       height: 100px;
-      position: absolute; }
+      width: 250px; }
       .footer div.logos-footer img {
-        margin: 25px;
+        margin: 10px;
         float: left; }
 
 .copyright {
