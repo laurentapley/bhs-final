@@ -1,6 +1,5 @@
 .sidebar {
     width: 265px;
-    padding-right: 15px;
     float: left;
     background-color: $alabaster;
 }
@@ -76,6 +75,11 @@ a.donate {
     width: 250px;
 }
 
+.sm-sidebar {
+    float: right;
+    margin-top: 40px;
+}
+
 .social-media {
     background-color: $wildSand;
     width: 238px;
@@ -83,75 +87,15 @@ a.donate {
     margin-top: 10px;
 }
 
-article {
-    h2,
-    .two {
-        border-bottom: .5px solid black;
-        font-size: 18px;
-        color: $chathamsBlue;
-        font-weight: 100;
-    }
-    .article-content {
-        font-size: 10px;
-        font-weight: 200;
-    }
-}
-
-.date {
-    color: $meteor;
-    font-size: 10px;
-    font-weight: 100;
-    line-height: .1;
-}
-
-.author {
-    color: $mercury;
-    font-size: 10px;
-    font-weight: 100;
-}
-
-
-/*----------  ASIDE  ----------*/
-
-.aside-box {
-    p {
-        font-size: 12px;
-        line-height: 1.4em;
-    }
-    img {
-        float: left;
-        margin-top: 8px;
-        padding-left: 10px;
-    }
-}
-
-hr.article-hr {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.article-nav {
-    background: none;
-}
-
-.dateText {
-    color: #000;
-    font-size: 11px;
-}
-
-.authorText {
-    color: $bon-jour;
-    font-size: 11px;
-}
-
 
 /* ASIDE */
 
 aside {
     width: 291px;
-    margin-left: 65px;
+    margin-left: 25px;
+    height: auto;
     float: left;
-    height: 294px;
+    border: red 1px solid;
     h2.since1973 {
         background: transparent url(../img/heading-since-1973.png) no-repeat;
         width: 152px;
@@ -159,26 +103,6 @@ aside {
         margin: 16px 10px 0 140px;
         padding: 10px;
         position: inherit;
-    }
-}
-
-.aside-box.boxed {
-    // background-color: $concrete;
-    background-color: tint($concrete, 10%); // Sass Function
-    padding: 5px;
-    border: 1px solid $gallery;
-    margin-bottom: 10px;
-}
-
-a.moreinfo {
-    text-decoration: underline;
-    color: $chathams-blue;
-    float: right;
-}
-
-.boxed {
-    p {
-        overflow: hidden;
     }
 }
 
@@ -207,8 +131,4 @@ a.moreinfo {
 
 .buttons {
     width: 270px;
-}
-
-.orange {
-    display: block;
 }

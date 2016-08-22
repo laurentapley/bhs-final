@@ -1,19 +1,28 @@
+.content {
+    width: 80%;
+    max-width: 1350px;
+    margin: auto;
+}
+
 .content-container {
     background-color: $alabaster;
     padding-bottom: 20px;
     margin: auto;
-    margin-top: 100px;
+    width: 1000px;
+    position: relative;
+    //min-width: 950px;
 }
 
 .main {
-    width: 675px;
+    width: 1000px;
     float: left;
-    margin-top: -38px;
-    .col-one {
-        float: left;
-        width: 400px;
-        margin-left: 12px;
-    }
+}
+
+.col-one {
+    float: left;
+    width: 320px;
+    margin-left: 12px;
+    padding: 10px;
 }
 
 .services {
@@ -23,17 +32,20 @@
     margin-left: 12px;
 }
 
-.large-img {
-    margin: auto;
-    display: block;
-}
-
-.since-1973 {
-    color: $white;
-}
-
 .prevention {
     font-family: serif;
-    color: $meteor;
-    font-size: 18px;
+    color: $doveGray;
+    font-size: 25px;
+    padding: 15px 0px;
+    width: 600px;
+    margin-left: 25px;
+    border-bottom: solid 1px $doveGray;
+}
+
+.strong {
+    color: $gallery;
+}
+
+.body-copy {
+    display: inline-block;
 }
