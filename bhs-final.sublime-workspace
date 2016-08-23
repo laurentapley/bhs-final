@@ -1,0 +1,789 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"top",
+				"border-top-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"jquery",
+				"jquery.min.js"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"mysqli_f",
+				"mysqli_enable_reads_from_master"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inlne",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"magin",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"backa",
+				"background-image"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"bod",
+				"border"
+			],
+			[
+				"b",
+				"border-bottom"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"border-bottom",
+				"border-bottom-right-radius"
+			],
+			[
+				"borer-bo",
+				"border-bottom-left-radius"
+			],
+			[
+				"bott",
+				"border-bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/scss/partials/_main.scss",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/partials/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 804,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 8670,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "previ",
+		"selected_items":
+		[
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pretty",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"pretty ppre",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"sublime linter sett",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"sublinter sett",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"prei",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"destry",
+				"Origami: Destroy Pane on the Right"
+			],
+			[
+				"create",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack r",
+				"Package Control: Remove Package"
+			],
+			[
+				"prettify o",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"img",
+				"Emmet: Update Image Size"
+			],
+			[
+				"packi",
+				"Package Control: List Packages"
+			],
+			[
+				"pro",
+				"Project: Edit Project"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"nav",
+				"Snippet: bs3-navbar"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lntapley/Documents/dev/project/bhs-final",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/mixins",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/partials"
+	],
+	"file_history":
+	[
+		"/Users/lntapley/Documents/dev/project/bhs-final/README.md",
+		"/Users/lntapley/.zshrc",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/partials/_nav.scss",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/partials/_header.scss",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/partials/_sidebar.scss",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/partials/_main.scss",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/partials/_footer.scss",
+		"/Users/lntapley/Documents/dev/project/express-javation/src/views/partials_nav.pug",
+		"/Users/lntapley/Documents/dev/project/express-javation/src/mock/posts.json",
+		"/Users/lntapley/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/lntapley/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lntapley/Documents/dev/project/express-javation/src/app.js",
+		"/Users/lntapley/Documents/dev/project/express-javation/src/views/post.pug",
+		"/Users/lntapley/Documents/dev/project/express-javation/src/views/index.pug",
+		"/Users/lntapley/Documents/dev/project/express-javation/package.json",
+		"/Users/lntapley/Library/Application Support/Sublime Text 3/Packages/User/javascript/use-strict.sublime-snippet",
+		"/Users/lntapley/Documents/dev/project/express-javation/README.md",
+		"/Users/lntapley/Documents/dev/project/bhs-final/gulpfile.js",
+		"/Users/lntapley/Documents/dev/project/fastshell/gulpfile.js",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/modules/_defaults.scss",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/modules/_vars.scss",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/style.css",
+		"/Users/lntapley/Documents/dev/project/bhs-final/src/scss/modules/_buttons.scss",
+		"/Users/lntapley/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/home.html",
+		"/Users/lntapley/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/lntapley/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/lntapley/.bash_profile",
+		"/Users/lntapley/simple-todos/server/main.js",
+		"/Users/lntapley/simple-todos/imports/ui/body.html",
+		"/Users/lntapley/simple-todos/imports/api/tasks.js",
+		"/Users/lntapley/simple-todos/client/main.js",
+		"/Users/lntapley/simple-todos/imports/ui/body.js",
+		"/Users/lntapley/",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/scss/_variables.scss",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/scss/style.scss",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/css/style.css",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/scss/_nav.scss",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/.gitignore",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/about.html",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/contact.html",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/photos.html",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/live.html",
+		"/Users/lntapley/Documents/dev/classes/gwda313/domsters/index.html",
+		"/Users/lntapley/.Trash/archive-page-style.css",
+		"/Users/lntapley/.Trash/archive-page-functions.php",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/bhs-theme/archive-page-functions.php",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/bhs-theme/archive-page-style.css",
+		"/Users/lntapley/Sites/wp-leonardo/wp-content/themes/leo-theme/home.php",
+		"/Users/lntapley/Sites/wp-leonardo/wp-content/themes/leo-theme/footer.php",
+		"/Users/lntapley/Sites/wp-leonardo/wp-content/themes/leo-theme/functions.php",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/final/style.css",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/final/footer.php",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/final/header.php",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/final/js/ie10-viewport-bug-workaround.js",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/final/functions.php",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/final/index.php",
+		"/Users/lntapley/Sites/wp-final/wp-content/themes/final/package.json",
+		"/Users/lntapley/Documents/dev/project/final/final.sublime-project",
+		"/Users/lntapley/Documents/dev/project/leonardo.sublime-project",
+		"/Users/lntapley/Sites/wp-leonardo/wp-ninja-turtles/wp-config.php",
+		"/Users/lntapley/Sites/ninja-turtles/wp-ninja-turtles/README.md",
+		"/Users/lntapley/Sites/ninja-turtles/index.php",
+		"/Users/lntapley/Sites/ninja-turtles/wp-content/themes/wp-bootstrap/css/bootstrap-theme.css",
+		"/Users/lntapley/Sites/ninja-turtles/wp-content/themes/wp-bootstrap/footer.php",
+		"/Users/lntapley/Sites/ninja-turtles/wp-content/themes/wp-bootstrap/index_old.php",
+		"/Users/lntapley/Sites/ninja-turtles/wp-content/themes/wp-bootstrap/style.css",
+		"/Users/lntapley/Downloads/styles-2.css",
+		"/Users/lntapley/Downloads/siteSlide.php",
+		"/Applications/MAMP/htdocs/Homework/ethanTapley.sql",
+		"/Applications/MAMP/htdocs/_Looping from database/_ToDo/Web_LoopingFromDataBase_1_FINISH/gallery.php",
+		"/Applications/MAMP/htdocs/Homework/inc_contact.php",
+		"/Applications/MAMP/htdocs/Homework/inc_footer.php",
+		"/Applications/MAMP/htdocs/Homework/styles.css",
+		"/Applications/MAMP/htdocs/Homework/reg_globals.php",
+		"/Applications/MAMP/htdocs/Homework/gallery.php",
+		"/Applications/MAMP/htdocs/Homework/inc_nav",
+		"/Applications/MAMP/htdocs/Homework/index.php",
+		"/Users/lntapley/Desktop/_Looping from database/_ToDo/Web_LoopingFromDataBase_1_FINISH/gallery.php",
+		"/Volumes/TAPS/_Fall_2015/Advanced_Web/Week_06/_Looping from database/_ToDo/Web_LoopingFromDataBase_1_FINISH/gallery.php",
+		"/Volumes/TAPS/Web2/_S09-PHPEmails/Lesson-FormsAndSuch/_css/styles.css",
+		"/Volumes/TAPS/Web 1/_Final/taps.html",
+		"/Volumes/TAPS/Web 1/_Final/gallery.html",
+		"/Volumes/TAPS/Web 1/_Final/floats.html",
+		"/Volumes/TAPS/Web 1/_Final/contactyojo.html",
+		"/Volumes/TAPS/Web 1/_S09-Fonts/3-font-squirrel.html",
+		"/Volumes/TAPS/Web 1/_S09-Fonts/1-websafe-fonts.html",
+		"/Volumes/TAPS/Web 1/The past/S04-Floats/2-Challenge_FloatedBoxes/styles.css",
+		"/Volumes/TAPS/Web 1/The past/S04-Floats/2-Challenge_FloatedBoxes/index.html",
+		"/Volumes/TAPS/Web 1/Tiny Astro/tiny_bio.html",
+		"/Volumes/TAPS/Web 1/Tiny Astro/tiny_journal.html",
+		"/Volumes/TAPS/Web 1/Tiny Astro/tiny.css",
+		"/Volumes/TAPS/Web 1/Tiny Astro/tiny_projects.html",
+		"/Volumes/TAPS/Web 1/Tiny Astro/tiny_menu.html",
+		"/Volumes/TAPS/Tiny Astro/tiny.css",
+		"/Volumes/TAPS/Tiny Astro/tiny_menu.html",
+		"/Volumes/TAPS/Tiny Astro/tiny_projects.html",
+		"/Volumes/TAPS/Tiny Astro/tiny_bio.html",
+		"/Volumes/TAPS/Tiny Astro/tiny_journal.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/contact_quay.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/functions_quay.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/home_quay.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/menu1_quay.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/about_quay.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/quay_styles.css",
+		"/Volumes/TAPS/Web 1/_week7_hw/style.css",
+		"/Volumes/TAPS/Web 1/_week7_hw/cases_second.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/contact_second.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/about_second.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/stuff_second.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/second.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/directors_second.html",
+		"/Volumes/TAPS/Web 1/The past/S06-Positioning/2-Challenge-Positioning/styles.css",
+		"/Volumes/TAPS/Web 1/The past/S06-Positioning/2-Challenge-Positioning/index.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/home_second.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/menu1.html",
+		"/Volumes/TAPS/Web 1/_week7_hw/menu_quay.html",
+		"/Volumes/TAPS/Web 1/S06-Positioning/2-Challenge-Positioning/styles.css",
+		"/Volumes/TAPS/Web 1/S06-Positioning/2-Challenge-Positioning/index.html",
+		"/Volumes/TAPS/Web 1/style.css",
+		"/Volumes/TAPS/Web 1/WebImagery.html",
+		"/Volumes/TAPS/Web 1/HW.5 Web Imagery",
+		"/Volumes/TAPS/Web 1/S04-Floats/2-Challenge_FloatedBoxes/styles.css",
+		"/Volumes/TAPS/Web 1/S04-Floats/2-Challenge_FloatedBoxes/index.html",
+		"/Volumes/TAPS/Web 1/stylesme.css",
+		"/Volumes/TAPS/Web 1/indexme.html",
+		"/Users/lntapley/Downloads/S04-Floats/2-Challenge_FloatedBoxes/styles.css",
+		"/Users/lntapley/Downloads/S04-Floats/2-Challenge_FloatedBoxes/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img-large",
+			"|",
+			"\"",
+			" \"",
+			"boot",
+			"\"",
+			"bind",
+			"nav",
+			"#778",
+			"#ffbb55",
+			"#445",
+			"#eef",
+			"#99a",
+			"#edc",
+			"#223",
+			"#455",
+			"#666677",
+			"#667",
+			"#778899",
+			"#789",
+			"#334",
+			"#eecc88",
+			"#ec8",
+			"#fb5",
+			"#eebbcc",
+			"#eb6",
+			"	}",
+			"pwd",
+			"_img/img_05.jpg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/scss/partials/_main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								198
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scss/partials/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5975,
+								5975
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 146.0
+	},
+	"pinned_build_system": "",
+	"project": "bhs-final.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"posts",
+				"mock/posts.json"
+			],
+			[
+				"app",
+				"src/app.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"",
+				"final-gulpfile.js"
+			],
+			[
+				"su",
+				"workflow/sublime-text.md"
+			],
+			[
+				"git",
+				"development/git.md"
+			],
+			[
+				"wpcli",
+				"wordpress/wp-cli.md"
+			],
+			[
+				"subl",
+				"workflow/sublime-text.md"
+			],
+			[
+				"wp",
+				"development/wp-cli.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
