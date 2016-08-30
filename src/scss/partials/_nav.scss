@@ -1,11 +1,12 @@
 .top-header {
     background: linear-gradient(#1b2935, #23446a);
-    width: 1000px;
+    width: 100%;
     height: 60px;
     position: relative;
 }
 
 .top-nav {
+    min-width: 320px;
     position: absolute;
     top: 5px;
     left: 110px;
@@ -40,7 +41,7 @@
 nav {
     font-size: 18px;
     background-color: $alabaster;
-    width: 1000px;
+    width: 100%;
     border-top: $doveGray solid 20px;
     border-bottom: $doveGray solid 20px;
 }
@@ -61,11 +62,11 @@ nav {
 }
 
 .nav li:first-child {
-    margin-left: 70px;
+    margin-left: 10%;
 }
 
 nav a {
     text-decoration: none;
     color: $doveGray;
-    margin: 15px;
+    margin: 1%;
 }

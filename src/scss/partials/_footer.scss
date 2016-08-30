@@ -12,19 +12,21 @@
         color: $alabaster;
         h4 {
             background-color: $blackPearl;
-            height: 40px;
             line-height: 40px;
             color: $alabaster;
             white-space: nowrap;
             width: 200px;
+            height: 40px;
             text-align: center;
             font-weight: normal;
         }
         &.logos-footer {
             height: 100px;
-            width: 250px;
+            width: 100px;
+            margin-left: 40px;
+            margin-top: 50px;
             img {
-                margin: 10px;
+                margin: 5px;
                 float: left;
             }
         }
@@ -35,4 +37,8 @@
     color: $white;
     font-size: 12px;
     text-align: center;
+}
+
+.about-us-footer {
+    margin-left: 50px;
 }

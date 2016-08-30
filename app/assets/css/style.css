@@ -391,11 +391,6 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.facebook-btn {
-  position: absolute;
-  top: 16px;
-  left: 420px; }
-
 .input-append {
   position: relative; }
 
@@ -405,9 +400,7 @@ textarea {
   left: 190px; }
 
 .search-container {
-  position: absolute;
-  top: 16px;
-  left: 560px;
+  display: inline-block;
   width: 258px;
   height: 37px; }
 
@@ -434,10 +427,17 @@ textarea {
   padding-right: 82px;
   margin-right: 5px; }
 
-.donate-btn {
-  position: absolute;
-  top: 12px;
-  left: 800px;
+.button-container {
+  width: 60%;
+  min-width: 320px;
+  border: solid red 1px;
+  float: right; }
+
+a .facebook-btn {
+  display: inline-block; }
+
+a .donate-btn {
+  display: inline-block;
   width: 150px;
   height: 30px; }
 
@@ -449,11 +449,12 @@ textarea {
 
 .top-header {
   background: linear-gradient(#1b2935, #23446a);
-  width: 1000px;
+  width: 100%;
   height: 60px;
   position: relative; }
 
 .top-nav {
+  min-width: 320px;
   position: absolute;
   top: 5px;
   left: 110px;
@@ -481,7 +482,7 @@ textarea {
 nav {
   font-size: 18px;
   background-color: #fbfbfb;
-  width: 1000px;
+  width: 100%;
   border-top: #666666 solid 20px;
   border-bottom: #666666 solid 20px; }
 
@@ -498,69 +499,22 @@ nav {
   content: " "; }
 
 .nav li:first-child {
-  margin-left: 70px; }
+  margin-left: 10%; }
 
 nav a {
   text-decoration: none;
   color: #666666;
-  margin: 15px; }
-
-.sidebar {
-  width: 265px;
-  float: left;
-  background-color: #fbfbfb; }
-
-.menu-options li {
-  list-style: none;
-  border-bottom: 1px solid #000000;
-  text-align: left;
-  margin-left: -27px;
-  margin-bottom: 8px;
-  line-height: 1.5; }
-
-.first-list {
-  border-bottom: 1px solid #000000; }
-
-ul .sub-menu li {
-  border-bottom: none;
-  margin-left: 10px;
-  font-size: 11px; }
-
-a.donate {
-  background-color: #d4740d;
-  padding: 10px 99px;
-  text-decoration: none;
-  color: #ffffff;
-  margin-left: 5px; }
-
-.sm-aside {
-  float: right;
-  width: 250px; }
-
-.sm-sidebar {
-  float: right;
-  margin-top: 40px; }
-
-.social-media {
-  background-color: #f5f4f4;
-  width: 238px;
-  height: 35px;
-  margin-top: 10px; }
+  margin: 1%; }
 
 /* ASIDE */
 aside {
-  width: 291px;
-  margin-left: 25px;
+  width: 25%;
   height: auto;
+  margin-left: 0px;
   float: left;
-  border: red 1px solid; }
-  aside h2.since1973 {
-    background: transparent url(../img/heading-since-1973.png) no-repeat;
-    width: 152px;
-    height: 42px;
-    margin: 16px 10px 0 140px;
-    padding: 10px;
-    position: inherit; }
+  border: solid 1px red; }
+  aside img.since1973 {
+    padding: 10px; }
 
 /* ASIDE MEDIA */
 .get-involved {
@@ -571,53 +525,48 @@ aside {
   max-width: 238px;
   max-height: auto; }
 
-.donate-btn-btm img {
-  width: 100%;
-  align: center;
-  max-width: 242px;
-  max-height: auto;
-  padding-bottom: 20px; }
-
-.seventy-three {
-  text-align: right;
-  margin: 10px; }
-
 .testimonials {
   color: #fbfbfb;
-  background-color: #0c2745;
+  background-color: #173f6b;
   padding: 5px;
   position: relative;
-  height: 31px; }
+  height: 30px; }
 
 .test {
   position: absolute;
   top: 0px;
   left: -22px; }
 
-.testimonials-text p {
-  float: left; }
+.testimonials-text {
+  position: relative; }
+
+.testimonials-text {
+  width: 140px; }
 
 .testimonials-text img {
   float: right; }
 
 .buttons {
-  width: 270px;
-  float: right; }
+  width: 40%;
+  float: left; }
+
+body {
+  width: 100%; }
+
+.content-container {
+  border: solid red 1px;
+  width: 100%;
+  font-size: 14px; }
 
 .content {
   width: 80%;
-  max-width: 1350px;
-  margin: auto; }
-
-.content-container {
-  background-color: #fbfbfb;
-  padding-bottom: 20px;
   margin: auto;
-  position: relative;
-  min-width: 1000px; }
+  background-color: #fbfbfb;
+  margin: auto;
+  position: relative; }
 
 .main {
-  width: 1000px;
+  width: 75%;
   float: left; }
 
 .col-one {
@@ -661,24 +610,29 @@ aside {
     color: #fbfbfb; }
     .footer div h4 {
       background-color: #091f37;
-      height: 40px;
       line-height: 40px;
       color: #fbfbfb;
       white-space: nowrap;
       width: 200px;
+      height: 40px;
       text-align: center;
       font-weight: normal; }
     .footer div.logos-footer {
       height: 100px;
-      width: 250px; }
+      width: 100px;
+      margin-left: 40px;
+      margin-top: 50px; }
       .footer div.logos-footer img {
-        margin: 10px;
+        margin: 5px;
         float: left; }
 
 .copyright {
   color: #ffffff;
   font-size: 12px;
   text-align: center; }
+
+.about-us-footer {
+  margin-left: 50px; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -706,6 +660,18 @@ aside {
   background: #333;
   color: #fff;
   text-shadow: none; }
+
+@media only screen and (min-width: 320px) {
+  .content-container {
+    font-size: 10px; } }
+
+@media only screen and (min-width: 768px) {
+  .content-container {
+    font-size: 12px; } }
+
+@media only screen and (min-width: 1140px) {
+  .content-container {
+    font-size: 14px; } }
 
 @media print {
   * {

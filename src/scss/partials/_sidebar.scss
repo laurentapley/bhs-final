@@ -1,70 +1,13 @@
-.sidebar {
-    width: 265px;
-    float: left;
-    background-color: $alabaster;
-}
-
-.menu-options li {
-    list-style: none;
-    border-bottom: 1px solid $black;
-    text-align: left;
-    margin-left: -27px;
-    margin-bottom: 8px;
-    line-height: 1.5;
-}
-
-.first-list {
-    border-bottom: 1px solid $black;
-    ;
-}
-
-ul .sub-menu li {
-    border-bottom: none;
-    margin-left: 10px;
-    font-size: 11px;
-}
-
-a.donate {
-    background-color: $meteor;
-    padding: 10px 99px;
-    text-decoration: none;
-    color: $white;
-    margin-left: 5px;
-}
-
-.sm-aside {
-    float: right;
-    width: 250px;
-}
-
-.sm-sidebar {
-    float: right;
-    margin-top: 40px;
-}
-
-.social-media {
-    background-color: $wildSand;
-    width: 238px;
-    height: 35px;
-    margin-top: 10px;
-}
-
-
 /* ASIDE */
 
 aside {
-    width: 291px;
-    margin-left: 25px;
+    width: 25%;
     height: auto;
+    margin-left: 0px;
     float: left;
-    border: red 1px solid;
-    h2.since1973 {
-        background: transparent url(../img/heading-since-1973.png) no-repeat;
-        width: 152px;
-        height: 42px;
-        margin: 16px 10px 0 140px;
+    border: solid 1px red;
+    img.since1973 {
         padding: 10px;
-        position: inherit;
     }
 }
 
@@ -81,27 +24,12 @@ aside {
     max-height: auto;
 }
 
-.donate-btn-btm {
-    img {
-        width: 100%;
-        align: center;
-        max-width: 242px;
-        max-height: auto;
-        padding-bottom: 20px;
-    }
-}
-
-.seventy-three {
-    text-align: right;
-    margin: 10px;
-}
-
 .testimonials {
     color: $alabaster;
-    background-color: $blueZodiac;
+    background-color: $chathamsBlue;
     padding: 5px;
     position: relative;
-    height: 31px;
+    height: 30px;
 }
 
 .test {
@@ -110,8 +38,12 @@ aside {
     left: -22px;
 }
 
-.testimonials-text p {
-    float: left;
+.testimonials-text {
+    position: relative;
+}
+
+.testimonials-text {
+    width: 140px;
 }
 
 .testimonials-text img {
@@ -119,6 +51,6 @@ aside {
 }
 
 .buttons {
-    width: 270px;
-    float: right;
+    width: 40%;
+    float: left;
 }

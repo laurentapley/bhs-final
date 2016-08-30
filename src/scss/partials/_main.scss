@@ -1,19 +1,23 @@
-.content {
-    width: 80%;
-    max-width: 1350px;
-    margin: auto;
+body {
+    width: 100%;
 }
 
 .content-container {
+    border: solid red 1px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
     background-color: $alabaster;
-    padding-bottom: 20px;
     margin: auto;
     position: relative;
-    min-width: 1000px;
 }
 
 .main {
-    width: 1000px;
+    width: 75%;
     float: left;
 }
 

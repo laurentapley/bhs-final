@@ -1,9 +1,3 @@
-.facebook-btn {
-    position: absolute;
-    top: 16px;
-    left: 420px;
-}
-
 .input-append {
     position: relative;
 }
@@ -15,9 +9,7 @@
 }
 
 .search-container {
-    position: absolute;
-    top: 16px;
-    left: 560px;
+    display: inline-block;
     width: 258px;
     height: 37px;
 }
@@ -48,10 +40,19 @@
     margin-right: 5px;
 }
 
-.donate-btn {
-    position: absolute;
-    top: 12px;
-    left: 800px;
+.button-container {
+    width: 60%;
+    min-width: 320px;
+    border: solid red 1px;
+    float: right;
+}
+
+a .facebook-btn {
+    display: inline-block;
+}
+
+a .donate-btn {
+    display: inline-block;
     width: 150px;
     height: 30px;
 }
