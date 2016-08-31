@@ -2,20 +2,41 @@
     .content-container {
         font-size: 10px;
     }
+    .footer-nav {
+        font-size: 14px;
+        width: 100%;
+        display: block;
+    }
 }
 
-@media only screen and (min-width:480px) {}
+@media only screen and (min-width:480px) {
+    .sm-sidebar {
+        display: block;
+        width: 100%;
+    }
+}
 
 @media only screen and (min-width:768px) {
     .content-container {
         font-size: 12px;
     }
+    .footer-nav {
+        font-size: 12px;
+    }
 }
 
-@media only screen and (min-width:1024px) {}
+@media only screen and (min-width:1024px) {
+    .sm-sidebar {
+        display: inline-block;
+        width: 25%;
+    }
+}
 
 @media only screen and (min-width:1140px) {
     .content-container {
+        font-size: 14px;
+    }
+    .footer-nav {
         font-size: 14px;
     }
 }

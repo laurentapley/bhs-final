@@ -1,6 +1,5 @@
 .footer {
     height: 200px;
-    min-width: 1000px;
     background-color: $blueZodiac;
     color: $doveGray;
     position: relative;
@@ -21,13 +20,11 @@
             font-weight: normal;
         }
         &.logos-footer {
-            height: 100px;
-            width: 100px;
-            margin-left: 40px;
-            margin-top: 50px;
+            border: solid red 1px;
+            width: 25%;
             img {
                 margin: 5px;
-                float: left;
+                display: inline-block;
             }
         }
     }
@@ -39,6 +36,11 @@
     text-align: center;
 }
 
-.about-us-footer {
-    margin-left: 50px;
+.footer-nav {
+    border: solid red 1px;
+    width: 20%;
+    h4 {
+        font-size: 18px;
+        margin: auto;
+    }
 }

@@ -401,14 +401,13 @@ textarea {
 
 .search-container {
   display: inline-block;
-  width: 258px;
-  height: 37px; }
+  height: 35px;
+  margin: 4px 10px 0px 0px; }
 
 .search-container .search-input {
   background-color: transparent;
   border: medium none;
   color: #999;
-  float: left;
   font-size: 0.9em;
   height: auto;
   margin: 8px 5px 0px 12px;
@@ -427,38 +426,38 @@ textarea {
   padding-right: 82px;
   margin-right: 5px; }
 
+form {
+  height: 40px;
+  margin-top: -24px; }
+
 .button-container {
   width: 60%;
-  min-width: 320px;
-  border: solid red 1px;
+  height: 40px;
   float: right; }
 
-a .facebook-btn {
-  display: inline-block; }
+.facebook-btn {
+  float: left;
+  margin: 6px 15px 0px 0px; }
 
-a .donate-btn {
-  display: inline-block;
-  width: 150px;
-  height: 30px; }
+.donate-btn {
+  float: right;
+  margin: -36px 0px 0px 10px; }
 
 .bhs-logo {
-  position: relative;
-  top: 10px;
-  left: 25px;
+  float: left;
+  margin: 10px 0px 0px 10px;
   z-index: 10; }
 
 .top-header {
   background: linear-gradient(#1b2935, #23446a);
   width: 100%;
-  height: 60px;
+  height: 40px;
   position: relative; }
 
 .top-nav {
-  min-width: 320px;
-  position: absolute;
-  top: 5px;
-  left: 110px;
-  font-size: 14px; }
+  float: left;
+  font-size: 14px;
+  margin-left: 0px; }
 
 .top-nav li {
   display: inline;
@@ -484,7 +483,9 @@ nav {
   background-color: #fbfbfb;
   width: 100%;
   border-top: #666666 solid 20px;
-  border-bottom: #666666 solid 20px; }
+  border-bottom: #666666 solid 20px;
+  height: 80px;
+  line-height: 40px; }
 
 .nav li {
   display: inline;
@@ -499,7 +500,7 @@ nav {
   content: " "; }
 
 .nav li:first-child {
-  margin-left: 10%; }
+  margin-left: 5%; }
 
 nav a {
   text-decoration: none;
@@ -546,15 +547,15 @@ aside {
 .testimonials-text img {
   float: right; }
 
-.buttons {
-  width: 40%;
-  float: left; }
+.orange {
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+  display: block; }
 
 body {
   width: 100%; }
 
 .content-container {
-  border: solid red 1px;
   width: 100%;
   font-size: 14px; }
 
@@ -598,7 +599,6 @@ body {
 
 .footer {
   height: 200px;
-  min-width: 1000px;
   background-color: #0c2745;
   color: #666666;
   position: relative; }
@@ -618,21 +618,23 @@ body {
       text-align: center;
       font-weight: normal; }
     .footer div.logos-footer {
-      height: 100px;
-      width: 100px;
-      margin-left: 40px;
-      margin-top: 50px; }
+      border: solid red 1px;
+      width: 25%; }
       .footer div.logos-footer img {
         margin: 5px;
-        float: left; }
+        display: inline-block; }
 
 .copyright {
   color: #ffffff;
   font-size: 12px;
   text-align: center; }
 
-.about-us-footer {
-  margin-left: 50px; }
+.footer-nav {
+  border: solid red 1px;
+  width: 20%; }
+  .footer-nav h4 {
+    font-size: 18px;
+    margin: auto; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -663,14 +665,32 @@ body {
 
 @media only screen and (min-width: 320px) {
   .content-container {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .footer-nav {
+    font-size: 14px;
+    width: 100%;
+    display: block; } }
+
+@media only screen and (min-width: 480px) {
+  .sm-sidebar {
+    display: block;
+    width: 100%; } }
 
 @media only screen and (min-width: 768px) {
   .content-container {
+    font-size: 12px; }
+  .footer-nav {
     font-size: 12px; } }
+
+@media only screen and (min-width: 1024px) {
+  .sm-sidebar {
+    display: inline-block;
+    width: 25%; } }
 
 @media only screen and (min-width: 1140px) {
   .content-container {
+    font-size: 14px; }
+  .footer-nav {
     font-size: 14px; } }
 
 @media print {

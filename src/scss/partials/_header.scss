@@ -10,15 +10,14 @@
 
 .search-container {
     display: inline-block;
-    width: 258px;
-    height: 37px;
+    height: 35px;
+    margin: 4px 10px 0px 0px;
 }
 
 .search-container .search-input {
     background-color: transparent;
     border: medium none;
     color: #999;
-    float: left;
     font-size: 0.9em;
     height: auto;
     margin: 8px 5px 0px 12px;
@@ -40,26 +39,29 @@
     margin-right: 5px;
 }
 
+form {
+    height: 40px;
+    margin-top: -24px;
+}
+
 .button-container {
     width: 60%;
-    min-width: 320px;
-    border: solid red 1px;
+    height: 40px;
     float: right;
 }
 
-a .facebook-btn {
-    display: inline-block;
+.facebook-btn {
+    float: left;
+    margin: 6px 15px 0px 0px;
 }
 
-a .donate-btn {
-    display: inline-block;
-    width: 150px;
-    height: 30px;
+.donate-btn {
+    float: right;
+    margin: -36px 0px 0px 10px;
 }
 
 .bhs-logo {
-    position: relative;
-    top: 10px;
-    left: 25px;
+    float: left;
+    margin: 10px 0px 0px 10px;
     z-index: 10;
 }
