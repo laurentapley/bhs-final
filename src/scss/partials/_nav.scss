@@ -83,3 +83,23 @@ nav.main-nav {
 .navbar-toggler {
     float: right;
 }
+
+
+/*================================
+=    FOOTER NAV UL           =
+================================*/
+
+.footer {
+    li {
+        float: left;
+        list-style: none;
+    }
+    span {
+        padding: 0 10px;
+        color: $black;
+    }
+    a {
+        color: $black;
+        text-decoration: none;
+    }
+}
