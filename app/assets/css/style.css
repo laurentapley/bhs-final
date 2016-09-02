@@ -554,17 +554,15 @@ nav.main-nav {
 /*================================
 =    FOOTER NAV UL           =
 ================================*/
-.footer li {
-  float: left;
-  list-style: none; }
+.footer div {
+  display: inline;
+  padding-left: 15px;
+  border-left: solid #ffffff 1px;
+  height: 150px;
+  overflow: hidden; }
 
-.footer span {
-  padding: 0 10px;
-  color: #000000; }
-
-.footer a {
-  color: #000000;
-  text-decoration: none; }
+.footer-nav.footer-first {
+  border-left: none; }
 
 /* ASIDE */
 aside {

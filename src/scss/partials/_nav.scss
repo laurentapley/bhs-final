@@ -89,17 +89,14 @@ nav.main-nav {
 =    FOOTER NAV UL           =
 ================================*/
 
-.footer {
-    li {
-        float: left;
-        list-style: none;
-    }
-    span {
-        padding: 0 10px;
-        color: $black;
-    }
-    a {
-        color: $black;
-        text-decoration: none;
-    }
+.footer div {
+    display: inline;
+    padding-left: 15px;
+    border-left: solid $white 1px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.footer-nav.footer-first {
+    border-left: none;
 }
