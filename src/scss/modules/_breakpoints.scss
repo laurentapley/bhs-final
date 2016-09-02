@@ -1,49 +1,88 @@
-@media only screen and (min-width:320px) {
-    .content-container {
-        font-size: 10px;
+@media screen and (max-width: 1200px) {
+    .search-container {
+        display: none;
     }
-    .footer-nav {
-        font-size: 14px;
-        width: 100%;
-        display: block;
-    }
-}
-
-@media only screen and (min-width:480px) {
-    .sm-sidebar {
-        display: block;
+    .aside-box p {
         width: 100%;
     }
 }
 
-@media only screen and (min-width:768px) {
-    .content-container {
-        font-size: 12px;
+@media screen and (max-width: 767px) {
+    img.facebook-icon {
+        display: none;
     }
-    .footer-nav {
-        font-size: 12px;
+    .donate {
+        display: none;
+    }
+    .sidebar-background {
+        display: none;
+    }
+    .footer-border {
+        border-right: none;
+    }
+    .cert-logos {
+        text-align: center;
+        padding: 0px;
+    }
+    .get-involved {
+        display: inline;
+    }
+    .aside-box p {
+        width: 80%;
+    }
+    .facebook-button {
+        display: none;
+    }
+    li {
+        text-align: center;
     }
 }
 
-@media only screen and (min-width:1024px) {
-    .sm-sidebar {
-        display: inline-block;
-        width: 25%;
+
+/* Responsive Nav */
+
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        > li {
+            display: block;
+        }
     }
 }
 
-@media only screen and (min-width:1140px) {
-    .content-container {
-        font-size: 14px;
+@media screen and (max-width: 992px) {
+    .navbar-header {
+        float: none;
     }
-    .footer-nav {
-        font-size: 14px;
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
     }
 }
-
-@media only screen and (min-width:1280px) {}
-
-@media print,
-(-o-min-device-pixel-ratio: 5/4),
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 120dpi) {}

@@ -1,63 +1,45 @@
-.input-append {
-    position: relative;
-}
-
-.icon {
-    position: absolute;
-    top: 7px;
-    left: 190px;
-}
-
-.search-container {
-    display: inline-block;
-    height: 35px;
-    margin: 4px 10px 0px 0px;
-}
-
-.search-container .search-input {
-    background-color: transparent;
-    border: medium none;
-    color: #999;
-    font-size: 0.9em;
-    height: auto;
-    margin: 8px 5px 0px 12px;
-    width: 185px;
-}
-
-.search-container .search-submit {
-    margin: 5px 0 0 10px;
-    width: 25px;
-}
-
-.search-query {
-    background-color: #fff;
-    border-radius: 14px;
-    border: none;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 82px;
-    margin-right: 5px;
-}
-
-.button-container {
-    width: 60%;
-    height: 40px;
-    float: right;
-}
-
-.facebook-btn {
-    float: left;
-    margin: 6px 15px 0px 0px;
-}
-
-.donate-btn {
-    float: right;
-    margin: 0px 0px 0px 10px;
-}
-
-.bhs-logo {
-    float: left;
-    position: relative;
-    margin: 10px 0px 0px 10px;
-    z-index: 100;
-}
+    header {
+        position: relative;
+        background: linear-gradient(#1b2935, #23446a);
+    }
+    
+    header .facebook-icon {
+        position: absolute;
+        top: 8px;
+        left: 380px;
+        padding: 9px 10px 0 15px;
+    }
+    
+    header .donate {
+        position: absolute;
+        top: 8px;
+        right: 0;
+    }
+    
+    header .bhs-logo {
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        z-index: 99;
+    }
+    
+    .search-container {
+        position: absolute;
+        top: 10px;
+        left: 535px;
+        background: transparent no-repeat;
+        background: transparent no-repeat;
+        width: 258px;
+        height: 37px;
+        border: solid red 1px;
+        .search-input {
+            background-color: transparent;
+            border: medium none;
+            color: $white;
+            float: left;
+            font-size: 0.9em;
+            height: auto;
+            margin: 8px 5px 0px 12px;
+            width: 185px;
+        }
+    }
