@@ -1,6 +1,5 @@
 .top-header {
     background: linear-gradient(#1b2935, #23446a);
-    width: 100%;
     color: $white;
 }
 
@@ -39,23 +38,6 @@ nav.main-nav {
     text-transform: uppercase;
     border-radius: 0px;
     font-size: 16px;
-}
-
-.nav.navbar-nav.top-nav-black {
-    font-size: .9em;
-    padding: 4px 0px 30px 125px;
-    li {
-        float: left;
-        list-style: none;
-    }
-    span {
-        padding: 0 10px;
-        color: $black;
-    }
-    a {
-        color: $black;
-        text-decoration: none;
-    }
 }
 
 .nav.navbar-nav {

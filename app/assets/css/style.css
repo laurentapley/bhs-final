@@ -387,6 +387,65 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+@media screen and (max-width: 1200px) {
+  .search-container {
+    display: none; }
+  .aside-box p {
+    width: 100%; } }
+
+@media screen and (max-width: 767px) {
+  img.facebook-icon {
+    display: none; }
+  .donate {
+    display: none; }
+  .sidebar-background {
+    display: none; }
+  .footer-border {
+    border-right: none; }
+  .cert-logos {
+    text-align: center;
+    padding: 0px; }
+  .get-involved {
+    display: inline; }
+  .aside-box p {
+    width: 80%; }
+  .facebook-button {
+    display: none; }
+  li {
+    text-align: center; } }
+
+/* Responsive Nav */
+@media screen and (max-width: 992px) {
+  .navbar-nav > li {
+    display: block; } }
+
+@media screen and (max-width: 992px) {
+  .navbar-header {
+    float: none; }
+  .navbar-left,
+  .navbar-right {
+    float: none !important; }
+  .navbar-toggle {
+    display: block; }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+  .navbar-collapse.collapse {
+    display: none !important; }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+  .navbar-nav > li {
+    float: none; }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .collapse.in {
+    display: block !important; } }
+
 header {
   position: relative;
   background: linear-gradient(#1b2935, #23446a); }
@@ -427,62 +486,77 @@ header .bhs-logo {
     margin: 8px 5px 0px 12px;
     width: 185px; }
 
-.sidebar {
-  width: 265px;
-  float: left;
-  background-color: #fbfbfb; }
+.top-header {
+  background: linear-gradient(#1b2935, #23446a);
+  color: #ffffff; }
 
-.menu-options li {
-  list-style: none;
-  border-bottom: 1px solid #000000;
-  text-align: left;
-  margin-left: -27px;
-  margin-bottom: 8px;
-  line-height: 1.5; }
+/*================================
+=            TOP Nav            =
+================================*/
+.top-nav {
+  font-size: .9em;
+  padding: 20px 0px 30px 125px; }
+  .top-nav li {
+    float: left;
+    list-style: none; }
+  .top-nav span {
+    padding: 0 10px;
+    color: #ffffff; }
+  .top-nav a {
+    color: #ffffff;
+    text-decoration: none; }
 
-.first-list {
-  border-bottom: 1px solid #000000; }
+/*================================
+=            Main Nav            =
+================================*/
+nav.main-nav {
+  background-color: #fbfbfb;
+  border-top: #666666 solid 20px;
+  border-bottom: #666666 solid 20px;
+  height: 80px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-size: 16px; }
 
-ul .sub-menu li {
-  border-bottom: none;
-  margin-left: 10px;
-  font-size: 11px; }
+.nav.navbar-nav {
+  font-size: .9em;
+  padding: 0px 0px 30px 125px; }
+  .nav.navbar-nav li {
+    float: left;
+    list-style: none; }
+  .nav.navbar-nav span {
+    padding: 0 10px;
+    color: #ffffff; }
+  .nav.navbar-nav a {
+    color: #ffffff;
+    text-decoration: none; }
 
-a.donate {
-  background-color: #d4740d;
-  padding: 10px 99px;
-  text-decoration: none;
-  color: #ffffff;
-  margin-left: 5px; }
+/*================================
+=    TOGGLE DROP DOWN           =
+================================*/
+.navbar-toggler {
+  float: right; }
 
-.sm-aside {
-  float: right;
-  width: 250px; }
+/*================================
+=    FOOTER NAV UL           =
+================================*/
+.footer div {
+  display: inline;
+  padding-left: 15px;
+  border-left: solid #ffffff 1px;
+  height: 150px;
+  overflow: hidden; }
 
-.sm-sidebar {
-  float: right;
-  margin-top: 40px; }
-
-.social-media {
-  background-color: #f5f4f4;
-  width: 238px;
-  height: 35px;
-  margin-top: 10px; }
+.footer-nav.footer-first {
+  border-left: none; }
 
 /* ASIDE */
 aside {
-  width: 291px;
-  margin-left: 25px;
   height: auto;
-  float: left;
-  border: red 1px solid; }
-  aside h2.since1973 {
-    background: transparent url(../img/heading-since-1973.png) no-repeat;
-    width: 152px;
-    height: 42px;
-    margin: 16px 10px 0 140px;
-    padding: 10px;
-    position: inherit; }
+  margin-left: 0px;
+  float: left; }
+  aside img.since1973 {
+    padding: 10px; }
 
 /* ASIDE MEDIA */
 .get-involved {
@@ -493,59 +567,47 @@ aside {
   max-width: 238px;
   max-height: auto; }
 
-.donate-btn-btm img {
-  width: 100%;
-  align: center;
-  max-width: 242px;
-  max-height: auto;
-  padding-bottom: 20px; }
-
-.seventy-three {
-  text-align: right;
-  margin: 10px; }
-
 .testimonials {
   color: #fbfbfb;
-  background-color: #133055;
+  background-color: #173f6b;
   padding: 5px;
   position: relative;
-  height: 31px; }
+  height: 30px; }
 
 .test {
   position: absolute;
   top: 0px;
-  left: -22px; }
+  left: -22px;
+  z-index: 1; }
 
-.testimonials-text p {
-  float: left; }
+.testimonials-text {
+  position: relative; }
+
+.testimonials-text {
+  width: 140px; }
 
 .testimonials-text img {
   float: right; }
 
-.buttons {
-  width: 270px;
-  float: right; }
+.orange {
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+  display: block; }
 
 body {
-  width: 100%;
   background: linear-gradient(#1b2935, #23446a); }
 
-.content-container {
-  width: 100%; }
-
 .content {
-  width: 80%;
+  border: 1px red solid;
   margin: auto;
   background-color: #fbfbfb;
-  margin: auto;
-  position: relative; }
+  padding: 0px; }
 
 .main {
-  width: 70%;
-  max-width: 680px;
-  float: left; }
+  float: left;
+  padding: 0px; }
 
-.col-one {
+.body-text {
   float: left;
   width: 320px;
   margin-left: 12px;
@@ -574,41 +636,29 @@ body {
   display: inline-block; }
 
 .footer {
-  height: 190px;
   background-color: #133055;
-  color: #666666;
-  margin-top: 50px; }
+  color: #666666; }
   .footer div {
     float: left;
-    width: 20%;
-    min-width: 220px;
     margin: 10px;
     color: #fbfbfb; }
     .footer div h4 {
       background-color: #091f37;
-      line-height: 40px;
       color: #fbfbfb;
-      width: 100%;
-      height: 40px;
-      text-align: center; }
+      text-align: center;
+      padding: 5px 0px 5px 0px; }
     .footer div.logos-footer {
       border: solid red 1px;
-      width: 25%; }
+      width: 25%;
+      float: right; }
       .footer div.logos-footer img {
         margin: 5px;
         display: inline-block; }
 
 .copyright {
-  color: #ffffff;
+  color: #000000;
   font-size: 12px;
   text-align: center; }
-
-.footer-nav {
-  width: 20%;
-  height: auto; }
-  .footer-nav h4 {
-    font-size: 18px;
-    margin: auto; }
 
 @font-face {
   font-family: 'Font-Name';

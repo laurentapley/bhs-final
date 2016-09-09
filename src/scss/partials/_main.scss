@@ -1,27 +1,20 @@
 body {
-    width: 100%;
     background: linear-gradient(#1b2935, #23446a);
 }
 
-.content-container {
-    width: 100%;
-}
-
 .content {
-    width: 80%;
+    border: 1px red solid;
     margin: auto;
     background-color: $alabaster;
-    margin: auto;
-    position: relative;
+    padding: 0px;
 }
 
 .main {
-    width: 70%;
-    max-width: 680px;
     float: left;
+    padding: 0px;
 }
 
-.col-one {
+.body-text {
     float: left;
     width: 320px;
     margin-left: 12px;
