@@ -2,31 +2,45 @@
         position: relative;
         background: linear-gradient(#1b2935, #23446a);
     }
-    
+
     header .facebook-icon {
         position: absolute;
         top: 8px;
         left: 380px;
         padding: 9px 10px 0 15px;
     }
-    
+
     header .donate {
         position: absolute;
-        top: 8px;
+        top: 14px;
         right: 0;
     }
-    
+
     header .bhs-logo {
         position: absolute;
         top: 0px;
         left: 10px;
         z-index: 99;
     }
-    
+
+    header .bhs-logo {
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+
+    @keyframes slidein {
+      from {
+        top: -200px;
+        left: 10px;
+      }
+
+      to {
+        top: 0px;
+        left: 10px;
+      }
+    }
+
     .search-container {
-        position: absolute;
-        top: 10px;
-        left: 535px;
         background: transparent no-repeat;
         background: transparent no-repeat;
         width: 258px;

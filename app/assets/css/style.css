@@ -387,64 +387,14 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-@media screen and (max-width: 1200px) {
-  .search-container {
-    display: none; }
-  .aside-box p {
-    width: 100%; } }
-
-@media screen and (max-width: 767px) {
-  img.facebook-icon {
-    display: none; }
-  .donate {
-    display: none; }
-  .sidebar-background {
-    display: none; }
-  .footer-border {
-    border-right: none; }
-  .cert-logos {
-    text-align: center;
-    padding: 0px; }
-  .get-involved {
-    display: inline; }
-  .aside-box p {
-    width: 80%; }
-  .facebook-button {
-    display: none; }
-  li {
-    text-align: center; } }
-
 /* Responsive Nav */
 @media screen and (max-width: 992px) {
-  .navbar-nav > li {
-    display: block; } }
-
-@media screen and (max-width: 992px) {
-  .navbar-header {
-    float: none; }
-  .navbar-left,
-  .navbar-right {
-    float: none !important; }
-  .navbar-toggle {
-    display: block; }
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
-  .navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px; }
-  .navbar-collapse.collapse {
-    display: none !important; }
-  .navbar-nav {
-    float: none !important;
-    margin-top: 7.5px; }
-  .navbar-nav > li {
-    float: none; }
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  .collapse.in {
-    display: block !important; } }
+  header .donate {
+    display: none; }
+  header .facebook-icon {
+    display: none; }
+  .navbar-toggler {
+    visibility: visible; } }
 
 header {
   position: relative;
@@ -458,7 +408,7 @@ header .facebook-icon {
 
 header .donate {
   position: absolute;
-  top: 8px;
+  top: 14px;
   right: 0; }
 
 header .bhs-logo {
@@ -467,10 +417,29 @@ header .bhs-logo {
   left: 10px;
   z-index: 99; }
 
+header .bhs-logo {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein; }
+
+@-webkit-keyframes slidein {
+  from {
+    top: -200px;
+    left: 10px; }
+  to {
+    top: 0px;
+    left: 10px; } }
+
+@keyframes slidein {
+  from {
+    top: -200px;
+    left: 10px; }
+  to {
+    top: 0px;
+    left: 10px; } }
+
 .search-container {
-  position: absolute;
-  top: 10px;
-  left: 535px;
   background: transparent no-repeat;
   background: transparent no-repeat;
   width: 258px;
@@ -516,20 +485,22 @@ nav.main-nav {
   height: 80px;
   text-transform: uppercase;
   border-radius: 0px;
-  font-size: 16px; }
+  font-size: .9em; }
+  nav.main-nav li {
+    margin-right: 2%; }
+  nav.main-nav li::before {
+    content: "|"; }
+  nav.main-nav li:first-child:before {
+    content: " "; }
 
-.nav.navbar-nav {
-  font-size: .9em;
-  padding: 0px 0px 30px 125px; }
-  .nav.navbar-nav li {
-    float: left;
-    list-style: none; }
-  .nav.navbar-nav span {
-    padding: 0 10px;
-    color: #ffffff; }
-  .nav.navbar-nav a {
-    color: #ffffff;
-    text-decoration: none; }
+.nav.nav-justified {
+  padding-left: 125px;
+  margin-top: 10px; }
+  .nav.nav-justified a {
+    width: 10%;
+    color: #000000;
+    text-decoration: none;
+    display: inline; }
 
 /*================================
 =    TOGGLE DROP DOWN           =
@@ -537,33 +508,18 @@ nav.main-nav {
 .navbar-toggler {
   float: right; }
 
-/*================================
-=    FOOTER NAV UL           =
-================================*/
-.footer div {
-  display: inline;
-  padding-left: 15px;
-  border-left: solid #ffffff 1px;
-  height: 150px;
-  overflow: hidden; }
-
-.footer-nav.footer-first {
-  border-left: none; }
-
 /* ASIDE */
 aside {
   height: auto;
   margin-left: 0px;
-  float: left; }
-  aside img.since1973 {
-    padding: 10px; }
+  float: left;
+  border: red 1px solid; }
+  aside .img-date {
+    margin: 5px 0px 5px 35%;
+    border: red 1px solid; }
 
 /* ASIDE MEDIA */
-.get-involved {
-  display: none; }
-
 .fbimg {
-  width: 100%;
   max-width: 238px;
   max-height: auto; }
 
@@ -580,38 +536,28 @@ aside {
   left: -22px;
   z-index: 1; }
 
-.testimonials-text {
-  position: relative; }
-
-.testimonials-text {
-  width: 140px; }
-
-.testimonials-text img {
-  float: right; }
-
 .orange {
   width: 100%;
   margin: 5px 0px 5px 0px;
   display: block; }
 
+.aside-text {
+  padding: 5%; }
+
+.grad {
+  border: red 1px solid; }
+
 body {
   background: linear-gradient(#1b2935, #23446a); }
 
 .content {
-  border: 1px red solid;
   margin: auto;
   background-color: #fbfbfb;
   padding: 0px; }
 
-.main {
+main {
   float: left;
-  padding: 0px; }
-
-.body-text {
-  float: left;
-  width: 320px;
-  margin-left: 12px;
-  padding: 10px; }
+  margin-left: 0px; }
 
 .services {
   font-family: serif;
@@ -619,46 +565,64 @@ body {
   text-align: left;
   margin-left: 12px; }
 
-.prevention {
-  font-family: serif;
-  color: #666666;
-  font-size: 2em;
-  padding: 15px 15px;
-  width: 100%;
-  margin: 0px;
-  text-align: center;
-  border-bottom: solid 1px #666666; }
-
-.strong {
-  color: blue; }
-
 .body-copy {
   display: inline-block; }
 
-.footer {
-  background-color: #133055;
-  color: #666666; }
-  .footer div {
+.column-container {
+  padding: 10px; }
+  .column-container h2 {
+    text-align: left;
+    font-family: serif;
+    color: #666666;
+    font-size: 2em;
+    width: 90%;
+    padding-top: 10px;
+    border-bottom: solid 1px #666666; }
+  .column-container p {
+    margin: 0px;
+    font-size: .85em;
+    padding-bottom: 30px; }
+  .column-container div.body-text {
     float: left;
-    margin: 10px;
-    color: #fbfbfb; }
-    .footer div h4 {
+    width: 320px;
+    padding-right: 10px; }
+  .column-container .strong {
+    color: #173f6b; }
+
+footer {
+  background-color: #133055; }
+  footer div {
+    display: inline;
+    margin: 15px 0px;
+    color: #fbfbfb;
+    font-size: 10px;
+    border-left: solid 1px #091f37; }
+    footer div h4 {
       background-color: #091f37;
       color: #fbfbfb;
       text-align: center;
-      padding: 5px 0px 5px 0px; }
-    .footer div.logos-footer {
-      border: solid red 1px;
-      width: 25%;
-      float: right; }
-      .footer div.logos-footer img {
+      font-size: 2em;
+      padding: .5em; }
+    footer div.logos-footer {
+      padding: 0px;
+      width: 215px; }
+      footer div.logos-footer img {
         margin: 5px;
         display: inline-block; }
+  footer .footer-first {
+    border-left: 0px; }
+  footer li {
+    list-style-type: circle;
+    margin-left: 5%; }
 
+/*================================
+=    COPYRIGHT          =
+================================*/
 .copyright {
-  color: #000000;
+  color: #ffffff;
   font-size: 12px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 10px; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -687,64 +651,14 @@ body {
   color: #fff;
   text-shadow: none; }
 
-@media screen and (max-width: 1200px) {
-  .search-container {
-    display: none; }
-  .aside-box p {
-    width: 100%; } }
-
-@media screen and (max-width: 767px) {
-  img.facebook-icon {
-    display: none; }
-  .donate {
-    display: none; }
-  .sidebar-background {
-    display: none; }
-  .footer-border {
-    border-right: none; }
-  .cert-logos {
-    text-align: center;
-    padding: 0px; }
-  .get-involved {
-    display: inline; }
-  .aside-box p {
-    width: 80%; }
-  .facebook-button {
-    display: none; }
-  li {
-    text-align: center; } }
-
 /* Responsive Nav */
 @media screen and (max-width: 992px) {
-  .navbar-nav > li {
-    display: block; } }
-
-@media screen and (max-width: 992px) {
-  .navbar-header {
-    float: none; }
-  .navbar-left,
-  .navbar-right {
-    float: none !important; }
-  .navbar-toggle {
-    display: block; }
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
-  .navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px; }
-  .navbar-collapse.collapse {
-    display: none !important; }
-  .navbar-nav {
-    float: none !important;
-    margin-top: 7.5px; }
-  .navbar-nav > li {
-    float: none; }
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  .collapse.in {
-    display: block !important; } }
+  header .donate {
+    display: none; }
+  header .facebook-icon {
+    display: none; }
+  .navbar-toggler {
+    visibility: visible; } }
 
 @media print {
   * {

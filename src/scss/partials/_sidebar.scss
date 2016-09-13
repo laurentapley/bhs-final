@@ -1,24 +1,22 @@
 /* ASIDE */
 
 aside {
-
     height: auto;
     margin-left: 0px;
     float: left;
-    img.since1973 {
-        padding: 10px;
+    border: red 1px solid;
+    .img-date {
+      margin: 5px 0px 5px 35%;
+      border: red 1px solid;
     }
 }
-
 
 /* ASIDE MEDIA */
 
 .get-involved {
-    display: none;
 }
 
 .fbimg {
-    width: 100%;
     max-width: 238px;
     max-height: auto;
 }
@@ -37,21 +35,12 @@ aside {
     left: -22px;
     z-index: 1;
 }
-
-.testimonials-text {
-    position: relative;
-}
-
-.testimonials-text {
-    width: 140px;
-}
-
-.testimonials-text img {
-    float: right;
-}
-
 .orange {
     width: 100%;
     margin: 5px 0px 5px 0px;
     display: block;
 }
+.aside-text {
+  padding: 5%;
+}
+.grad { border: red 1px solid;}

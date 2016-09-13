@@ -3,23 +3,17 @@ body {
 }
 
 .content {
-    border: 1px red solid;
     margin: auto;
     background-color: $alabaster;
     padding: 0px;
 }
 
-.main {
+main {
     float: left;
-    padding: 0px;
+    margin-left: 0px;
 }
 
-.body-text {
-    float: left;
-    width: 320px;
-    margin-left: 12px;
-    padding: 10px;
-}
+
 
 .services {
     font-family: serif;
@@ -28,21 +22,33 @@ body {
     margin-left: 12px;
 }
 
-.prevention {
-    font-family: serif;
-    color: $doveGray;
-    font-size: 2em;
-    padding: 15px 15px;
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-    border-bottom: solid 1px $doveGray;
-}
-
-.strong {
-    color: $gallery;
-}
-
 .body-copy {
     display: inline-block;
 }
+
+.column-container {
+  padding: 10px;
+  h2 {
+    text-align: left;
+    font-family: serif;
+    color: $doveGray;
+    font-size: 2em;
+    width: 90%;
+    padding-top: 10px;
+    border-bottom: solid 1px $doveGray;
+    }
+  p {
+    margin: 0px;
+    font-size: .85em;
+    padding-bottom: 30px;
+  }
+  div.body-text {
+    float: left;
+    width: 320px;
+    padding-right: 10px;
+  }
+  .strong {
+    color: $chathamsBlue;
+}
+}
+

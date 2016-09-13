@@ -17,15 +17,15 @@
             =============================-->
         <header class="row" role="banner">
                 <ul class="top-nav">
-                    <li><a href="index.html">Home</a> <span> | </span> </li>
+                    <li><a href="index.html">Home</a> <span>|</span> </li>
                     <li><a href="#">About Us</a> <span> | </span> </li>
                     <li><a href="#">FAQ</a> <span> | </span> </li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <!-- END .top-nav -->
                 <a href="#" class="facebook-icon"><img class="facebook-button" src="assets/img/fb-btn.png" alt="facebook button"></a>
-                <div class="search-container">
-                    <form class="search-form" method="get" action="#">
+                <div class="hidden-xs-up search-container">
+                    <form class="search-form navbar-form" method="get" action="#">
                         <input class="search-input" type="text" onFocus="this.value=(this.value=='Search...')? '' : this.value ;" value="Search..." name="search">
                         <!--<input class="search-submit" type="image" value="Search" src="">-->
                     </form>
@@ -40,25 +40,27 @@
                 <!--============================
             =            MAIN-NAV            =
             =============================-->
-                <nav class="navbar navbar-light main-nav" role="navigation">
-                    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                <nav class="main-nav" role="navigation">
+                <div class="container-fluid">
+                    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
                         &#9776;
                     </button>
-                    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a> <span> </span> </li>
-                            <li class="nav-item"><a class="nav-link" href="#">About</a> <span> </span> </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Services</a> <span> </span> </li>
-                            <li class="nav-item"><a class="nav-link" href="#">What is addiction?</a><span> </span></li>
+                    <div class="collapse navbar-toggleable-md" id="exCollapsingNavbar2">
+                        <ul class="nav navbar-nav nav-pills nav-justified">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">What is addiction?</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Make an appointment</a></li>
                         </ul>
+                    </div>
                     </div>
                 </nav>
                 <!--====  End of MAIN_NAV  ====-->
         </header>
         <!--====  End of HEADER  ====-->
-        <div class="content-container row clear">
-            <main class="main col-xs-12 col-md-8" role="main">
+        <div class="container row clear">
+            <main class="col-xs-12 col-md-8 row" role="main">
                 <img src="assets/img/bhs-main-01.png" alt="BHS Main" class="img-fluid clear" width="" height="">
                 <div class="column-container clear">
                     <h2 class="prevention">Welocme to Behavioral Health Services</h2>
@@ -72,14 +74,14 @@
                     </div>
                 </div>
             </main>
-            <aside class="col-xs-6 col-md-4" role="complementary">
+            <aside class="col-xs-12 col-md-4 row" role="complementary">
                 <article>
-                    <img class="since1973 img-fluid" src="assets/img/since-1973.png" alt="BHS Since 1973">
-                    <h3 class="testimonials"><img class="test" src="assets/img/testimonials-bg.png" alt="BHS">Testimonials</h3>
+                    <img class="img-date img-fluid clear" src="assets/img/since-1973.png" alt="BHS 1973">
+                    <h3 class="testimonials clear"><img class="test" src="assets/img/testimonials-bg.png" alt="BHS">Testimonials</h3>
                     <div class="testimonials-text">
-                        <img class="grad img-fluid" src="assets/img/bhs-graduate.png" alt="BHS Graduate">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, iure illum libero, quis optio laudantium fugit</p>
-                        <a href="#">Click here to view</a>
+                        <p class="aside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, iure illum libero, quis optio laudantium fugit</p>
+                        <img class="grad" src="assets/img/bhs-graduate.png" alt="BHS Graduate">
+                        <a class="clear" href="#">Click here to view</a>
                     </div>
                     <div class="btn-group" role="group" >
                         <a href="#"><img class="orange img-fluid" src="assets/img/involved.gif" alt="Get Involved"></a>
@@ -87,9 +89,9 @@
                         <a href="#"><img class="orange img-fluid" src="assets/img/subscribe.png" alt="Subscribe to BHS"></a>
                     </div>
                 </article>
-                <article class="two">
-                    <h2>Latest FaceBook Post</h2>
-                    <h3> Recovery Month 2011 - Home</h3>
+                <article class="col-md-12">
+                    <h4>Latest FaceBook Post</h4>
+                    <h6> Recovery Month 2011 - Home</h6>
                     <p class="date">Updated May 09, 2011 10:21 AM</p>
                     <p>Recovery Month promotes the societal benefits of treatment for substance use disorders and mental health problems, celebrates people in recovery, lauds the contributions of treatment providers, and promotes the message that recovery in all its forms is possible. Recovery Month spreads the positive vibes.</p>
                     <a href="#">Click here for more postings</a>
@@ -103,7 +105,7 @@
     =            FOOTER            =
     =============================-->
         <footer class="footer row" role="contentinfo">
-            <div class="col-xs-3 footer-nav footer-first">
+            <div class="col-md-3 col-ex-6 footer-nav footer-first">
                 <h4>About Us</h4>
                 <ul class="nav">
                     <li class="nav-item">Our History</li>
@@ -114,7 +116,7 @@
                 </ul>
             </div>
             <!-- END .about-us-footer -->
-            <div class="col-xs-3 ">
+            <div class="col-md-3 col-ex-6 ">
                 <h4>Services</h4>
                 <ul class="nav">
                     <li class="nav-item">Success Stories</li>
@@ -124,7 +126,7 @@
                 </ul>
             </div>
             <!-- END .services-footer -->
-            <div class="col-xs-3 footer-nav">
+            <div class="col-md-3 col-ex-6 footer-nav">
                 <h4>Ways to Get Involved</h4>
                 <ul class="nav">
                     <li class="nav-item">Make a Donation</li>
@@ -134,11 +136,12 @@
                 </ul>
             </div>
             <!-- END .involved-footer -->
-            <div class="col-xs-3 logos-footer footer-nav">
+            <div class="col-md-3 col-ex-6 logos-footer footer-nav">
                 <img class="adp-logo img-fluid" src="assets/img/adp-logo.png" alt="ADP Logo">
                 <img class="img-fluid" src="assets/img/carf-logo.png" alt="Carf Logo">
             </div>
         </footer>
+        </div>
         <p class="copyright">Copyright Behavioral Health Services &copy; 2011. All Rights Reserved. </p>
         <!--====  End of FOOTER  ====-->
         <!--=============================
