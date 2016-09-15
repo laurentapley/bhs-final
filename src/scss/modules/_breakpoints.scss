@@ -4,7 +4,20 @@
 }
 
 @media screen and (max-width: 767px) {
-
+ .column-container {
+  div.body-text {
+    display: block;
+    width: 100%;
+  }}
+  aside {
+    padding: 0px;
+  }
+  .testimonials {
+    width: 100%;
+    img {
+      display: none;
+    }
+  }
 
 }
 
@@ -13,14 +26,17 @@
 
 @media screen and (max-width: 992px) {
   header .donate {
-        display: none;
-    }
-    header .facebook-icon {
-      display: none;
-    }
+        display: none; }
+  header .facebook-icon {
+      display: none;}
   .navbar-toggler {
-    visibility: visible;
-  }
+    visibility: visible;}
+  .column-container {
+  div.body-text {
+    display: block;
+    width: 100%;
+  }}
+
 }
 
 

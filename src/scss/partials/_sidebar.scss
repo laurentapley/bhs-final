@@ -3,19 +3,15 @@
 aside {
     height: auto;
     margin-left: 0px;
-    float: left;
+    float: right;
     border: red 1px solid;
-    .img-date {
-      margin: 5px 0px 5px 35%;
-      border: red 1px solid;
+    .img-fluid.img-date {
+      width: 25%;
+      margin: 5px 0px 5px 60%;
     }
 }
 
 /* ASIDE MEDIA */
-
-.get-involved {
-}
-
 .fbimg {
     max-width: 238px;
     max-height: auto;
@@ -43,4 +39,4 @@ aside {
 .aside-text {
   padding: 5%;
 }
-.grad { border: red 1px solid;}
+.grad {}

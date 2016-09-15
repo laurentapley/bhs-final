@@ -41,11 +41,11 @@
     }
 
     .search-container {
-        background: transparent no-repeat;
-        background: transparent no-repeat;
-        width: 258px;
+        width: 25%;
         height: 37px;
+        background-color: white 50%;
         border: solid red 1px;
+        display: none;
         .search-input {
             background-color: transparent;
             border: medium none;

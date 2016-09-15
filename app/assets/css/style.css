@@ -387,6 +387,17 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+@media screen and (max-width: 767px) {
+  .column-container div.body-text {
+    display: block;
+    width: 100%; }
+  aside {
+    padding: 0px; }
+  .testimonials {
+    width: 100%; }
+    .testimonials img {
+      display: none; } }
+
 /* Responsive Nav */
 @media screen and (max-width: 992px) {
   header .donate {
@@ -394,7 +405,10 @@ textarea {
   header .facebook-icon {
     display: none; }
   .navbar-toggler {
-    visibility: visible; } }
+    visibility: visible; }
+  .column-container div.body-text {
+    display: block;
+    width: 100%; } }
 
 header {
   position: relative;
@@ -440,11 +454,11 @@ header .bhs-logo {
     left: 10px; } }
 
 .search-container {
-  background: transparent no-repeat;
-  background: transparent no-repeat;
-  width: 258px;
+  width: 25%;
   height: 37px;
-  border: solid red 1px; }
+  background-color: white 50%;
+  border: solid red 1px;
+  display: none; }
   .search-container .search-input {
     background-color: transparent;
     border: medium none;
@@ -512,11 +526,11 @@ nav.main-nav {
 aside {
   height: auto;
   margin-left: 0px;
-  float: left;
+  float: right;
   border: red 1px solid; }
-  aside .img-date {
-    margin: 5px 0px 5px 35%;
-    border: red 1px solid; }
+  aside .img-fluid.img-date {
+    width: 25%;
+    margin: 5px 0px 5px 60%; }
 
 /* ASIDE MEDIA */
 .fbimg {
@@ -544,20 +558,16 @@ aside {
 .aside-text {
   padding: 5%; }
 
-.grad {
-  border: red 1px solid; }
-
 body {
-  background: linear-gradient(#1b2935, #23446a); }
+  background: linear-gradient(#1b2935, #23446a);
+  padding: 0px;
+  margin: 0px; }
 
 .content {
-  margin: auto;
+  width: 100%;
+  margin: 0px auto;
   background-color: #fbfbfb;
   padding: 0px; }
-
-main {
-  float: left;
-  margin-left: 0px; }
 
 .services {
   font-family: serif;
@@ -565,11 +575,9 @@ main {
   text-align: left;
   margin-left: 12px; }
 
-.body-copy {
-  display: inline-block; }
-
 .column-container {
-  padding: 10px; }
+  padding: 10px;
+  width: 100%; }
   .column-container h2 {
     text-align: left;
     font-family: serif;
@@ -584,10 +592,13 @@ main {
     padding-bottom: 30px; }
   .column-container div.body-text {
     float: left;
-    width: 320px;
+    width: 50%;
     padding-right: 10px; }
   .column-container .strong {
     color: #173f6b; }
+
+img.img-date {
+  width: 100%; }
 
 footer {
   background-color: #133055; }
@@ -595,7 +606,7 @@ footer {
     display: inline;
     margin: 15px 0px;
     color: #fbfbfb;
-    font-size: 10px;
+    font-size: .7em;
     border-left: solid 1px #091f37; }
     footer div h4 {
       background-color: #091f37;
@@ -651,6 +662,17 @@ footer {
   color: #fff;
   text-shadow: none; }
 
+@media screen and (max-width: 767px) {
+  .column-container div.body-text {
+    display: block;
+    width: 100%; }
+  aside {
+    padding: 0px; }
+  .testimonials {
+    width: 100%; }
+    .testimonials img {
+      display: none; } }
+
 /* Responsive Nav */
 @media screen and (max-width: 992px) {
   header .donate {
@@ -658,7 +680,10 @@ footer {
   header .facebook-icon {
     display: none; }
   .navbar-toggler {
-    visibility: visible; } }
+    visibility: visible; }
+  .column-container div.body-text {
+    display: block;
+    width: 100%; } }
 
 @media print {
   * {
