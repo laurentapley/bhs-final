@@ -68,3 +68,13 @@ gulp.task( 'default', [ 'css', 'js', 'browser-sync' ], function() {
   gulp.watch( "src/js/*.js", [ 'js' ] );
   gulp.watch( "app/*.html", [ 'bs-reload' ] );
 } );
+
+// // ##Sass Sourcempas
+// gulp.task('sass', function () {
+//   return gulp
+//     .src(input)
+//     .pipe(sourcemaps.init())
+//     .pipe(sass(sassOptions).on('error', sass.logError))
+//     .pipe(sourcemaps.write())
+//     .pipe(gulp.dest(output));
+// });
