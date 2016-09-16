@@ -1,3 +1,14 @@
+/*!
+Theme Name: Custom WordPress Theme
+Author: Jay Johnson
+
+Author URI: http://jayevanjohnson.com/
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
 .clear:before, .clear:after {
   content: ' ';
   display: table; }
@@ -404,11 +415,47 @@ textarea {
     display: none; }
   header .facebook-icon {
     display: none; }
+  div.search-container {
+    display: none; }
   .navbar-toggler {
     visibility: visible; }
   .column-container div.body-text {
     display: block;
-    width: 100%; } }
+    width: 100%; }
+  nav.main-nav li {
+    width: 100%;
+    margin: 15px;
+    display: inherit; }
+  nav.main-nav li::before {
+    content: none; }
+  nav.main-nav li:first-child:before {
+    content: " "; }
+  /*================================
+=    TOGGLE DROP DOWN           =
+================================*/
+  .navbar-toggler {
+    position: relative;
+    z-index: 99 !important;
+    float: right; }
+  .collapse {
+    background-color: #ffffff;
+    outline: solid 1px grey;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1; }
+  .nav.navbar-nav li {
+    width: 100%; }
+  .nav.navbar-nav a {
+    color: #000000;
+    font-weight: bold;
+    margin-left: 0px;
+    width: 100%; }
+  footer {
+    margin-top: 0px; }
+  aside {
+    background-color: #e6e6e6; }
+    aside .img-date {
+      display: none; } }
 
 header {
   position: relative;
@@ -453,16 +500,18 @@ header .bhs-logo {
     top: 0px;
     left: 10px; } }
 
-.search-container {
+div.search-container {
   width: 25%;
   height: 37px;
-  background-color: white 50%;
-  border: solid red 1px;
-  display: none; }
-  .search-container .search-input {
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  top: 13px;
+  left: 530px; }
+  div.search-container .search-input {
     background-color: transparent;
     border: medium none;
-    color: #ffffff;
+    color: #000000;
     float: left;
     font-size: 0.9em;
     height: auto;
@@ -501,48 +550,40 @@ nav.main-nav {
   border-radius: 0px;
   font-size: .9em; }
   nav.main-nav li {
-    margin-right: 2%; }
+    margin-right: 1%; }
   nav.main-nav li::before {
     content: "|"; }
   nav.main-nav li:first-child:before {
     content: " "; }
 
-.nav.nav-justified {
+.nav.navbar-nav {
   padding-left: 125px;
   margin-top: 10px; }
-  .nav.nav-justified a {
+  .nav.navbar-nav a {
     width: 10%;
     color: #000000;
     text-decoration: none;
-    display: inline; }
-
-/*================================
-=    TOGGLE DROP DOWN           =
-================================*/
-.navbar-toggler {
-  float: right; }
+    display: inline;
+    margin-left: 25px; }
 
 /* ASIDE */
 aside {
-  height: auto;
+  width: 100%;
   margin-left: 0px;
-  float: right;
-  border: red 1px solid; }
+  padding: 0px;
+  float: left;
+  background-color: #ffffff; }
   aside .img-fluid.img-date {
-    width: 25%;
-    margin: 5px 0px 5px 60%; }
+    width: 50%;
+    margin: 10px 10px 10px 50%; }
 
 /* ASIDE MEDIA */
-.fbimg {
-  max-width: 238px;
-  max-height: auto; }
-
 .testimonials {
   color: #fbfbfb;
   background-color: #173f6b;
-  padding: 5px;
+  padding: 7px;
   position: relative;
-  height: 30px; }
+  width: 100%; }
 
 .test {
   position: absolute;
@@ -550,13 +591,39 @@ aside {
   left: -22px;
   z-index: 1; }
 
-.orange {
+.btn-group {
   width: 100%;
-  margin: 5px 0px 5px 0px;
-  display: block; }
+  margin: 20px auto; }
+  .btn-group .orange {
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    display: block; }
+
+.testimonials-text {
+  width: 100%; }
+  .testimonials-text p {
+    padding: 0px;
+    width: 50%; }
+  .testimonials-text a {
+    display: block; }
 
 .aside-text {
+  font-size: .8em;
+  float: left;
+  width: 200px;
   padding: 5%; }
+
+img.grad {
+  width: 50%;
+  float: right; }
+
+article {
+  font-size: .8em; }
+  article h4 {
+    border-bottom: solid 1px #666666;
+    color: #1E4B86; }
+  article .date {
+    color: #ED792A; }
 
 body {
   background: linear-gradient(#1b2935, #23446a);
@@ -564,10 +631,14 @@ body {
   margin: 0px; }
 
 .content {
-  width: 100%;
   margin: 0px auto;
-  background-color: #fbfbfb;
   padding: 0px; }
+
+.content-wrapper {
+  height: auto;
+  background-color: #ffffff;
+  padding: 0px;
+  margin: 0px; }
 
 .services {
   font-family: serif;
@@ -575,9 +646,11 @@ body {
   text-align: left;
   margin-left: 12px; }
 
+main {
+  background-color: #ffffff; }
+
 .column-container {
-  padding: 10px;
-  width: 100%; }
+  padding: 20px; }
   .column-container h2 {
     text-align: left;
     font-family: serif;
@@ -589,13 +662,14 @@ body {
   .column-container p {
     margin: 0px;
     font-size: .85em;
+    padding: 10px;
     padding-bottom: 30px; }
   .column-container div.body-text {
     float: left;
     width: 50%;
     padding-right: 10px; }
   .column-container .strong {
-    color: #173f6b; }
+    color: #1E4B86; }
 
 img.img-date {
   width: 100%; }
@@ -613,13 +687,11 @@ footer {
       color: #fbfbfb;
       text-align: center;
       font-size: 2em;
-      padding: .5em; }
-    footer div.logos-footer {
-      padding: 0px;
-      width: 215px; }
-      footer div.logos-footer img {
-        margin: 5px;
-        display: inline-block; }
+      padding: .5em;
+      min-width: 200px; }
+    footer div.logos-footer img {
+      margin: 5px;
+      display: inline-block; }
   footer .footer-first {
     border-left: 0px; }
   footer li {
@@ -634,6 +706,9 @@ footer {
   font-size: 12px;
   text-align: center;
   padding-top: 10px; }
+
+.no-border {
+  border-left: none; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -679,11 +754,47 @@ footer {
     display: none; }
   header .facebook-icon {
     display: none; }
+  div.search-container {
+    display: none; }
   .navbar-toggler {
     visibility: visible; }
   .column-container div.body-text {
     display: block;
-    width: 100%; } }
+    width: 100%; }
+  nav.main-nav li {
+    width: 100%;
+    margin: 15px;
+    display: inherit; }
+  nav.main-nav li::before {
+    content: none; }
+  nav.main-nav li:first-child:before {
+    content: " "; }
+  /*================================
+=    TOGGLE DROP DOWN           =
+================================*/
+  .navbar-toggler {
+    position: relative;
+    z-index: 99 !important;
+    float: right; }
+  .collapse {
+    background-color: #ffffff;
+    outline: solid 1px grey;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1; }
+  .nav.navbar-nav li {
+    width: 100%; }
+  .nav.navbar-nav a {
+    color: #000000;
+    font-weight: bold;
+    margin-left: 0px;
+    width: 100%; }
+  footer {
+    margin-top: 0px; }
+  aside {
+    background-color: #e6e6e6; }
+    aside .img-date {
+      display: none; } }
 
 @media print {
   * {

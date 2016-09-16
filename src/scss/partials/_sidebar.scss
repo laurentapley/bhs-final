@@ -1,28 +1,26 @@
 /* ASIDE */
 
 aside {
-    height: auto;
+    width: 100%;
     margin-left: 0px;
-    float: right;
-    border: red 1px solid;
+    padding: 0px;
+    float: left;
+    background-color: $white;
     .img-fluid.img-date {
-      width: 25%;
-      margin: 5px 0px 5px 60%;
+        width: 50%;
+        margin: 10px 10px 10px 50%;
     }
 }
 
+
 /* ASIDE MEDIA */
-.fbimg {
-    max-width: 238px;
-    max-height: auto;
-}
 
 .testimonials {
     color: $alabaster;
     background-color: $chathamsBlue;
-    padding: 5px;
+    padding: 7px;
     position: relative;
-    height: 30px;
+    width: 100%;
 }
 
 .test {
@@ -31,12 +29,47 @@ aside {
     left: -22px;
     z-index: 1;
 }
-.orange {
+
+.btn-group {
     width: 100%;
-    margin: 5px 0px 5px 0px;
-    display: block;
+    margin: 20px auto;
+    .orange {
+        width: 100%;
+        margin: 5px 0px 5px 0px;
+        display: block;
+    }
 }
+
+.testimonials-text {
+    width: 100%;
+    p {
+        padding: 0px;
+        width: 50%;
+    }
+    a {
+        display: block;
+    }
+}
+
 .aside-text {
-  padding: 5%;
+    font-size: .8em;
+    float: left;
+    width: 200px;
+    padding: 5%;
 }
-.grad {}
+
+img.grad {
+    width: 50%;
+    float: right;
+}
+
+article {
+    font-size: .8em;
+    h4 {
+        border-bottom: solid 1px $doveGray;
+        color: $highlightBlue;
+    }
+    .date {
+        color: $highlightOrange;
+    }
+}

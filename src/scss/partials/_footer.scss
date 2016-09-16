@@ -12,10 +12,9 @@ footer {
             text-align: center;
             font-size: 2em;
             padding: .5em;
+            min-width: 200px;
         }
         &.logos-footer {
-            padding: 0px;
-            width: 215px;
             img {
                 margin: 5px;
                 display: inline-block;
@@ -23,20 +22,26 @@ footer {
         }
     }
     .footer-first {
-    border-left: 0px;
-  }
-  li {
-    list-style-type: circle;
-    margin-left: 5%;
-  }
+        border-left: 0px;
+    }
+    li {
+        list-style-type: circle;
+        margin-left: 5%;
+    }
 }
+
 
 /*================================
 =    COPYRIGHT          =
 ================================*/
+
 .copyright {
     color: $white;
     font-size: 12px;
     text-align: center;
     padding-top: 10px;
+}
+
+.no-border {
+    border-left: none;
 }

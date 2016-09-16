@@ -5,10 +5,15 @@ body {
 }
 
 .content {
-    width: 100%;
     margin: 0px auto;
-    background-color: $alabaster;
     padding: 0px;
+}
+
+.content-wrapper {
+    height: auto;
+    background-color: $white;
+    padding: 0px;
+    margin: 0px;
 }
 
 .services {
@@ -18,32 +23,39 @@ body {
     margin-left: 12px;
 }
 
+main {
+    background-color: $white;
+}
+
 .column-container {
-  padding: 10px;
-  width: 100%;
-  h2 {
-    text-align: left;
-    font-family: serif;
-    color: $doveGray;
-    font-size: 2em;
-    width: 90%;
-    padding-top: 10px;
-    border-bottom: solid 1px $doveGray;
+    padding: 20px;
+    h2 {
+        text-align: left;
+        font-family: serif;
+        color: $doveGray;
+        font-size: 2em;
+        width: 90%;
+        padding-top: 10px;
+        border-bottom: solid 1px $doveGray;
     }
-  p {
-    margin: 0px;
-    font-size: .85em;
-    padding-bottom: 30px;
-  }
-  div.body-text {
-    float: left;
-    width: 50%;
-    padding-right: 10px;
-  }
-  .strong {
-    color: $chathamsBlue;
+    p {
+        margin: 0px;
+        font-size: .85em;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+    div.body-text {
+        float: left;
+        width: 50%;
+        padding-right: 10px;
+    }
+    .strong {
+        color: $highlightBlue;
+    }
 }
+
+img.img-date {
+    width: 100%;
 }
-img.img-date{
-  width: 100%;
-}
+
+div.container.row {}
