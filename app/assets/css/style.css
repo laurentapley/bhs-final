@@ -516,7 +516,11 @@ div.search-container {
     font-size: 0.9em;
     height: auto;
     margin: 8px 5px 0px 12px;
-    width: 185px; }
+    width: 230px; }
+  div.search-container .search-submit {
+    position: absolute;
+    top: 12px;
+    left: 255px; }
 
 .top-header {
   background: linear-gradient(#1b2935, #23446a);
