@@ -9,7 +9,6 @@ var gulp = require('gulp'),
     cssnano = require('gulp-cssnano'),
     sourcemaps = require('gulp-sourcemaps'),
     package = require('./package.json');
-// bootstrap = require('bootstrap');
 
 var banner = [
     '/*!\n' +
@@ -72,4 +71,14 @@ gulp.task('default', ['css', 'js', 'browser-sync'], function() {
     gulp.watch("src/scss/*/*.scss", ['css']);
     gulp.watch("src/js/*.js", ['js']);
     gulp.watch("app/*.html", ['bs-reload']);
+});
+
+// // Clear caches off local system
+gulp.task('cache:clear', function(callback) {
+    return cache.clearAll(callback)
+});
+
+// Cleaning up generated files automatically
+gulp.task('clean:dist', function() {
+    return del.sync('dist');
 });
