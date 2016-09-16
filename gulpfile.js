@@ -8,7 +8,8 @@ var gulp = require( 'gulp' ),
   rename = require( 'gulp-rename' ),
   cssnano = require( 'gulp-cssnano' ),
   sourcemaps = require( 'gulp-sourcemaps' ),
-  package = require( './package.json' );
+  package = require( './package.json' ),
+  del = require('del');
 // bootstrap = require( 'bootstrap' );
 
 var banner = [
@@ -69,12 +70,13 @@ gulp.task( 'default', [ 'css', 'js', 'browser-sync' ], function() {
   gulp.watch( "app/*.html", [ 'bs-reload' ] );
 } );
 
-// // ##Sass Sourcempas
-// gulp.task('sass', function () {
-//   return gulp
-//     .src(input)
-//     .pipe(sourcemaps.init())
-//     .pipe(sass(sassOptions).on('error', sass.logError))
-//     .pipe(sourcemaps.write())
-//     .pipe(gulp.dest(output));
-// });
+// // Clear caches off local system
+gulp.task('cache:clear', function (callback) {
+return cache.clearAll(callback)
+});
+
+// Cleaning up generated files automatically
+gulp.task('clean:dist', function() {
+  return del.sync('dist');
+})
+
