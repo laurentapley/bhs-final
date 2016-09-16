@@ -17,8 +17,13 @@ logs
 results
 npm-debug.log
 node_modules
+<<<<<<< HEAD
 *.sublime-workspace
 
+=======
+bower_components
+*.sublime-workspace
+>>>>>>> 2000b054cae0012a0879ed8fc881d04e51871b97
 
 ## Bower
 bower_components

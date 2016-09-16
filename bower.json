@@ -1,0 +1,20 @@
+{
+  "name": "fastshell",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Hossein Karami"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rosariotinoco/bhs-final",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
