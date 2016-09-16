@@ -8,8 +8,8 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     cssnano = require('gulp-cssnano'),
     sourcemaps = require('gulp-sourcemaps'),
-    package = require('./package.json'),
-    bootstrap = require('./bootstrap/dist/css/bootstrap.min.css');
+    package = require('./package.json');
+// bootstrap = require('bootstrap');
 
 var banner = [
     '/*!\n' +
@@ -54,8 +54,13 @@ gulp.task('js', function() {
 
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
+        // startPath: '/app/index.html',
         server: {
-            baseDir: "app"
+            baseDir: "app",
+            routes: {
+                "/node_modules": "node_modules",
+                "/bower_components": "bower_components"
+            }
         }
     });
 });
