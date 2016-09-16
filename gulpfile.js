@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync'),
@@ -10,6 +11,21 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     package = require('./package.json');
 // bootstrap = require('bootstrap');
+=======
+var gulp = require( 'gulp' ),
+  sass = require( 'gulp-sass' ),
+  browserSync = require( 'browser-sync' ),
+  autoprefixer = require( 'gulp-autoprefixer' ),
+  uglify = require( 'gulp-uglify' ),
+  jshint = require( 'gulp-jshint' ),
+  header = require( 'gulp-header' ),
+  rename = require( 'gulp-rename' ),
+  cssnano = require( 'gulp-cssnano' ),
+  sourcemaps = require( 'gulp-sourcemaps' ),
+  package = require( './package.json' ),
+  del = require('del');
+// bootstrap = require( 'bootstrap' );
+>>>>>>> b3c189b465b100cd4b9389bef0130c4f9081c089
 
 var banner = [
     '/*!\n' +
@@ -68,8 +84,27 @@ gulp.task('bs-reload', function() {
     browserSync.reload();
 });
 
+<<<<<<< HEAD
 gulp.task('default', ['css', 'js', 'browser-sync'], function() {
     gulp.watch("src/scss/*/*.scss", ['css']);
     gulp.watch("src/js/*.js", ['js']);
     gulp.watch("app/*.html", ['bs-reload']);
 });
+=======
+gulp.task( 'default', [ 'css', 'js', 'browser-sync' ], function() {
+  gulp.watch( "src/scss/*/*.scss", [ 'css' ] );
+  gulp.watch( "src/js/*.js", [ 'js' ] );
+  gulp.watch( "app/*.html", [ 'bs-reload' ] );
+} );
+
+// // Clear caches off local system
+gulp.task('cache:clear', function (callback) {
+return cache.clearAll(callback)
+});
+
+// Cleaning up generated files automatically
+gulp.task('clean:dist', function() {
+  return del.sync('dist');
+})
+
+>>>>>>> b3c189b465b100cd4b9389bef0130c4f9081c089
