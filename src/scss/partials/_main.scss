@@ -1,24 +1,19 @@
-.content-container {
-    background-color: $alabaster;
-    padding-bottom: 20px;
-    margin-top: 175px;
+body {
+    background: linear-gradient(#1b2935, #23446a);
+    padding: 0px;
+    margin: 0px;
 }
 
-.main {
-    // background: -moz-linear-gradient(top, rgba(237, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    // background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237, 235, 235, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
-    // background: -webkit-linear-gradient(top, rgba(237, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    // background: -o-linear-gradient(top, rgba(237, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    // background: -ms-linear-gradient(top, rgba(237, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    // background: linear-gradient(to bottom, rgba(237, 235, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    width: 675px;
-    float: left;
-    margin-top: -38px;
-    .col-one {
-        float: left;
-        width: 400px;
-        margin-left: 12px;
-    }
+.content {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.content-wrapper {
+    height: auto;
+    background-color: $white;
+    padding: 0px;
+    margin: 0px;
 }
 
 .services {
@@ -28,17 +23,39 @@
     margin-left: 12px;
 }
 
-.large-img {
-    margin: auto;
-    display: block;
+main {
+    background-color: $white;
 }
 
-.since-1973 {
-    color: $white;
+.column-container {
+    padding: 20px;
+    h2 {
+        text-align: left;
+        font-family: serif;
+        color: $doveGray;
+        font-size: 2em;
+        width: 90%;
+        padding-top: 10px;
+        border-bottom: solid 1px $doveGray;
+    }
+    p {
+        margin: 0px;
+        font-size: .85em;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+    div.body-text {
+        float: left;
+        width: 50%;
+        padding-right: 10px;
+    }
+    .strong {
+        color: $highlightBlue;
+    }
 }
 
-.prevention {
-    font-family: serif;
-    color: $meteor;
-    font-size: 18px;
+img.img-date {
+    width: 100%;
 }
+
+div.container.row {}

@@ -5,143 +5,157 @@
     <meta charset="utf-8">
     <title>BHS Final</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="//www.google-analytics.com" rel="dns-prefetch">
-    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="assets/css/style.min.css" rel="stylesheet">
-    <script src="assets/components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="content">
-        <div class="content-container clear">
-            <header class="header" role="banner">
-                <a href="/">
-                    <img src="" alt="" class="logo">
-                </a>
-                <div class="top-header">
-                    <ul class="top-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <!-- END .top-nav -->
-                    <a href="#" class="facebook-btn"><img src="assets/img/icon_facebook.png" alt="Facebook Icon"></a>
-                    <div class="search-container">
-                        <form method="get" id="searchform" class="form-search" action="#">
-                            <label for="s" class="assistive-text hidden">
-                                Search
-                            </label>
-                            <div class="input-append">
-                                <input id="s" class="span2 search-query" type="search" name="s" placeholder="Search...">
-                                <button class="icon" name="submit" id="searchsubmit" type="submit"><i class="fa fa-search"></i></button>
-                            </div>
-                        </form>
+    <div class="container content">
+        <!--============================
+            =            HEADER            =
+            =============================-->
+        <header class="" role="banner">
+            <ul class="top-nav">
+                <li><a href="index.html">Home</a> <span>|</span> </li>
+                <li><a href="#">About Us</a> <span>|</span> </li>
+                <li><a href="#">FAQ</a> <span>|</span> </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- END .top-nav -->
+            <a href="#" class="facebook-icon"><img class="facebook-button" src="assets/img/fb-btn.png" alt="facebook button"></a>
+            <div class="search-container">
+                <form class="search-form navbar-form" method="get" action="#">
+                    <input class="search-input" type="text" onFocus="this.value=(this.value=='Search...')? '' : this.value ;" value="Search..." name="search">
+                    <!--<input class="search-submit" type="image" value="Search" src="">-->
+                </form>
+                <!-- END .search-form -->
+            </div>
+            <!-- END .search-container -->
+            <a href="#" class="donate" target="_blank">
+                <img src="assets/img/donate-btn.png" alt="donate button">
+            </a>
+            <!-- END .donate -->
+            <a href="#"> <img class="bhs-logo" src="assets/img/bhs-logo.png" bhs-logo.png alt="BHS logo"></a>
+            <!--============================
+            =            MAIN-NAV            =
+            =============================-->
+            <nav class="main-nav" role="navigation">
+                <div class="container-fluid">
+                    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                    <div class="collapse navbar-toggleable-md" id="exCollapsingNavbar2">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">What is addiction?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Make an appointment</a></li>
+                        </ul>
+                        <div class="clear"></div>
                     </div>
-                    <a href="#" class="donate-btn"><img src="assets/img/button_donate.png" alt="Donate"></a>
                 </div>
-                <!-- END .top-header -->
-            </header>
-            <main class="main" role="main">
-                <h2 class="services">Services</h2>
-                <img src="assets/img/bhs-main-01.png" alt="Since 1973" class="large-img" width="" height="">
-                <div class="column-container">
-                    <div class="col-one">
-                        <h2 class="prevention">Welocme to Behavioral Health Services</h2>
-                        <p><strong>Behavioral Health Services</strong> is a not-for-profit community-based healthcare organization providing substance abuse, mental health, drug-free transitional living, older adult services, HIV/AIDS education and prevention, and other related health service to the residents of Southern California. BHS' mission is to transform lives by offering hope and opportunities for recovery, wellness, and independence. Since 1973, BHS has provided inpatient detoxification and residential and outpatient treatment services to substance abusers.</p>
+            </nav>
+            <!--====  End of MAIN_NAV  ====-->
+        </header>
+        <!--====  End of HEADER  ====-->
+        <div class="content-wrapper">
+            <main class="col-xs-12 col-md-9" role="main">
+                <img src="assets/img/bhs-main-01.png" alt="BHS Main" class=" img-fluid main-img" width="" height="354">
+                <div class="column-container row">
+                    <h2 class="prevention">Welcome to Behavioral Health Services</h2>
+                    <div class="body-text fluid">
+                        <p><strong class="strong">Behavioral Health Services</strong> is a not-for-profit community-based healthcare organization providing substance abuse, mental health, drug-free transitional living, older adult services, HIV/AIDS education and prevention, and other related health service to the residents of Southern California. </p>
+                        <p>BHS' mission is to transform lives by offering hope and opportunities for recovery, wellness, and independence.</p>
+                        <p> Since 1973, BHS has provided inpatient detoxification and residential and outpatient treatment services to substance abusers.</p>
+                    </div>
+                    <div class="body-text">
                         <p>Over the past thirty-four years BHS expanded services to meet tOver the past thirty-four years BHS expanded services to meet the comprehensive needs of its clients, and now provides services from 11 sites located throughout Los Angeles County. These sites include two free-standing chemical dependency recovery centers with medical detoxification and residential/outpatient treatment, two residential treatment facilities, seven outpatient facilities, and two transitional living facilities. The BHS continuum of care includes four community assessment center sites, prevention programs for adolescents and older adults; geriatric case management and home care services for frail elderly and disabled adults.</p>
                     </div>
-                    <aside class="sm-aside">
-                        <article>
-                            <h2>Latest News</h2>
-                            <h4>Fish Oil Have Positive Effects on Mood, Alcohol Craving, New Study Shows
-              <p class="date"> May 27, 2011 10:21 AM <span class="author">by Science Daily</span></p>
-              <p class="article-content">Omega 3 fatty acids may be beneficial for more than just the heart. Researchers have found at a molecular level a potential therapeutic benefit from these dietary supplements for treating alcohol abuse and psychiatric disorders.
-               <a href="https://www.sciencedaily.com/releases/2011/05/110526091758.htm">MORE</a></p></h4>
-                        </article>
-                        <article class="two">
-                            <h2>Recent Job Post</h2>
-                            <p class="date">Updated May 12, 2011</p>
-                            <p>932-Counselor I-HWD</p>
-                            <!-- <p>lorem*100</p>
- -->
-                            <a href="#">Click here for more postings</a>
-                        </article>
-                    </aside>
-                    <!-- END aside -->
                 </div>
             </main>
-            <aside class="sidebar" role="complementary">
+            <aside class="col-xs-12 col-md-3" role="complementary">
+                <article>
+                    <img class="img-fluid img-date clear" src="assets/img/since-1973.png" alt="BHS 1973">
+                    <h6 class="testimonials clear"><img class="test" src="assets/img/testimonials-bg.png" alt="BHS">Testimonials</h6>
+                    <div class="testimonials-text">
+                        <img class="grad" src="assets/img/bhs-graduate.png" alt="BHS Graduate">
+                        <p class="aside-text clear">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, iure illum libero, quis optio laudantium fugit
+                            <a class="aside-link" href="#">
+                            Click here to view</a></p>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <a href="#"><img class="orange img-fluid" src="assets/img/involved.gif" alt="Get Involved"></a>
+                        <a href="#"><img class="orange img-fluid" src="assets/img/work.gif" alt="Work at BHS"></a>
+                        <a href="#"><img class="orange img-fluid" src="assets/img/subscribe.png" alt="Subscribe to BHS"></a>
+                    </div>
+                </article>
+                <article>
+                    <h4>Latest FaceBook Post</h4>
+                    <h6> Recovery Month 2011 - Home</h6>
+                    <p class="date">Updated May 09, 2011 10:21 AM</p>
+                    <p>Recovery Month promotes the societal benefits of treatment for substance use disorders and mental health problems, celebrates people in recovery, lauds the contributions of treatment providers, and promotes the message that recovery in all its forms is possible. Recovery Month spreads the positive vibes.</p>
+                    <a href="#">Click here for more postings</a>
+                </article>
             </aside>
+            <div class="clear"></div>
         </div>
-        <!-- END .content-container -->
-    </div>
-    <!-- END .container -->
-    <!--============================
+        <!-- END Aside -->
+        <!-- END main -->
+        <!-- END .container -->
+        <!--============================
     =            FOOTER            =
     =============================-->
-    <footer class="footer" role="contentinfo">
-        <div class="about-us-footer">
-            <h4>About Us</h4>
-            <ul>
-                <li>Our History</li>
-                <li>About the CEO</li>
-                <li>More</li>
-                <li>Even More</li>
-            </ul>
-        </div>
-        <!-- END .about-us-footer -->
-        <div class="services-footer">
-            <h4>Services</h4>
-            <ul>
-                <li>Success Stories</li>
-                <li>Prevention Services</li>
-                <li>Recovery Centers</li>
-                <li>Other</li>
-            </ul>
-        </div>
-        <!-- END .services-footer -->
-        <div class="involved-footer">
-            <h4>Ways to Get Involved</h4>
-            <ul>
-                <li>Make a Donation</li>
-                <li>Become a Corporate Sponser</li>
-                <li>Donate Your Time</li>
-                <li>Partner Your Agency with Ours</li>
-            </ul>
-        </div>
-        <!-- END .involved-footer -->
-        <div class="logos-footer">
-            <img class="adp-logo" src="assets/img/adp-logo.gif" alt="ADP Logo" width="84" height="84">
-            <img src="assets/img/carf-logo.png" alt="Carf Logo" width="98" height="89">
-        </div>
-    </footer>
+        <footer class="footer" role="contentinfo">
+            <div class="col-md-3 col-ex-6 footer-nav footer-first">
+                <h4>About Us</h4>
+                <ul class="nav">
+                    <li class="nav-item">Our History</li>
+                    <li class="nav-item">About the CEO</li>
+                    <li class="nav-item">More</li>
+                    <li class="nav-item">Even More</li>
+                </ul>
+            </div>
+            <!-- END .about-us-footer -->
+            <div class="col-md-3 col-ex-6 footer-nav ">
+                <h4>Services</h4>
+                <ul class="nav">
+                    <li class="nav-item">Success Stories</li>
+                    <li class="nav-item">Prevention Services</li>
+                    <li class="nav-item">Recovery Centers</li>
+                    <li class="nav-item">Other</li>
+                </ul>
+            </div>
+            <!-- END .services-footer -->
+            <div class="col-md-3 col-xs-6 footer-nav ">
+                <h4>Ways to Get Involved</h4>
+                <ul class="nav">
+                    <li class="nav-item">Make a Donation</li>
+                    <li class="nav-item">Become a Corporate Sponser</li>
+                    <li class="nav-item">Donate Your Time</li>
+                    <li class="nav-item">Partner Your Agency with Ours</li>
+                </ul>
+            </div>
+            <!-- END .involved-footer -->
+            <div class="col-md-3 col-ex-6 logos-footer">
+                <img class="adp-logo img-fluid" src="assets/img/adp-logo.png" alt="ADP Logo">
+                <img class="img-fluid" src="assets/img/carf-logo.png" alt="Carf Logo">
+            </div>
+            <div class="clear no-border"></div>
+        </footer>
+    </div>
     <p class="copyright">Copyright Behavioral Health Services &copy; 2011. All Rights Reserved. </p>
     <!--====  End of FOOTER  ====-->
     <!--=============================
     =            Scripts            =
     ==============================-->
-    <script src="assets/components/jquery/jquery.min.js"></script>
-    <script src="assets/js/scripts.min.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-    (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function() {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-    </script>
+    <!-- Tether for Bootstrap -->
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+    <!-- BootStrap 4 Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <!--====  End of Scripts  ====-->
 </body>
 

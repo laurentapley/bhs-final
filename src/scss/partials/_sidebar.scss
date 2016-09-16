@@ -1,120 +1,75 @@
-.sidebar {
-    width: 265px;
-    padding-right: 15px;
+/* ASIDE */
+
+aside {
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px;
     float: left;
-    background-color: $alabaster;
+    background-color: $white;
+    .img-fluid.img-date {
+        width: 50%;
+        margin: 10px 10px 10px 50%;
+    }
 }
 
-.menu-options li {
-    list-style: none;
-    border-bottom: 1px solid $black;
-    text-align: left;
-    margin-left: -27px;
-    margin-bottom: 8px;
-    line-height: 1.5;
+
+/* ASIDE MEDIA */
+
+.testimonials {
+    color: $alabaster;
+    background-color: $chathamsBlue;
+    padding: 7px;
+    position: relative;
+    width: 100%;
 }
 
-.first-list {
-    border-bottom: 1px solid $black;
-    ;
+.test {
+    position: absolute;
+    top: 0px;
+    left: -22px;
+    z-index: 1;
 }
 
-ul .sub-menu li {
-    border-bottom: none;
-    margin-left: 10px;
-    font-size: 11px;
+.btn-group {
+    width: 100%;
+    margin: 20px auto;
+    .orange {
+        width: 100%;
+        margin: 5px 0px 5px 0px;
+        display: block;
+    }
 }
 
-.get-involved,
-.success-stories {
-    width: 240px;
-    height: 125px;
-    background-color: $mercury;
-    margin: 0 auto;
+.testimonials-text {
+    width: 100%;
+    p {
+        padding: 0px;
+        width: 50%;
+    }
+    a {
+        display: block;
+    }
 }
 
-.get-involved img {
-    margin-left: 10px;
-    margin-top: 15px;
+.aside-text {
+    font-size: .8em;
     float: left;
+    width: 200px;
+    padding: 5%;
 }
 
-.get-involved p {
-    float: left;
-    font-size: 12px;
-    width: 115px;
-    margin-left: 5px;
-}
-
-.success {
-    color: $black;
-}
-
-.success-stories img {
-    margin-left: 10px;
-    margin-top: 15px;
-    float: left;
-}
-
-.success-stories p {
-    float: left;
-    font-size: 12px;
-    width: 115px;
-    margin-left: 5px;
-}
-
-a.donate {
-    background-color: $meteor;
-    padding: 10px 99px;
-    text-decoration: none;
-    color: $white;
-    margin-left: 5px;
-}
-
-.sm-aside {
+img.grad {
+    width: 50%;
     float: right;
-    width: 250px;
 }
 
-.social-media {
-    background-color: $wildSand;
-    width: 238px;
-    height: 35px;
-    margin-top: 10px;
-}
-
-//   .fb-like {
-//   margin-left: 20px;
-//   margin-top: 10px;
-//   float: left;
-// }
-// .fb-share {
-//   margin-left: 40px;
-//   margin-top: 10px;
-// }
 article {
-    h2,
-    .two {
-        border-bottom: .5px solid black;
-        font-size: 18px;
-        color: $chathamsBlue;
-        font-weight: 100;
+    font-size: .8em;
+    h4 {
+        border-bottom: solid 1px $doveGray;
+        color: $highlightBlue;
     }
-    .article-content {
-        font-size: 10px;
-        font-weight: 200;
+    .date {
+        color: $highlightOrange;
     }
-}
-
-.date {
-    color: $meteor;
-    font-size: 10px;
-    font-weight: 100;
-    line-height: .1;
-}
-
-.author {
-    color: $mercury;
-    font-size: 10px;
-    font-weight: 100;
 }

@@ -1,21 +1,91 @@
-@media only screen and (min-width:320px) {
+@media screen and (max-width: 1200px) {}
 
+@media screen and (max-width: 767px) {
+    .column-container {
+        div.body-text {
+            display: block;
+            width: 100%;
+        }
+    }
+    aside {
+        padding: 0px;
+    }
+    .testimonials {
+        width: 100%;
+        img {
+            display: none;
+        }
+    }
 }
-@media only screen and (min-width:480px) {
 
-}
-@media only screen and (min-width:768px) {
 
-}
-@media only screen and (min-width:1024px) {
+/* Responsive Nav */
 
-}
-@media only screen and (min-width:1140px) {
-
-}
-@media only screen and (min-width:1280px) {
-
-}
-@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
-
+@media screen and (max-width: 992px) {
+    header .donate {
+        display: none;
+    }
+    header .facebook-icon {
+        display: none;
+    }
+    div.search-container {
+        display: none;
+    }
+    .navbar-toggler {
+        visibility: visible;
+    }
+    .column-container {
+        div.body-text {
+            display: block;
+            width: 100%;
+        }
+    }
+    nav.main-nav {
+        li {
+            width: 100%;
+            margin: 15px;
+            display: inherit;
+        }
+        li::before {
+            content: none;
+        }
+        li:first-child:before {
+            content: " ";
+        }
+    }
+    /*================================
+=    TOGGLE DROP DOWN           =
+================================*/
+    .navbar-toggler {
+        position: relative;z-index: 99!important
+;
+        float: right;
+    }
+    .collapse {
+        background-color: $white;
+        outline: solid 1px grey;
+        margin-bottom: 50px;
+        position: relative;
+        z-index: 1;
+    }
+    .nav.navbar-nav {
+        li {
+            width: 100%;
+        }
+        a {
+            color: $black;
+            font-weight: bold;
+            margin-left: 0px;
+            width: 100%;
+        }
+    }
+    footer {
+        margin-top: 0px;
+    }
+    aside {
+        background-color: $mercury;
+        .img-date {
+            display: none;
+        }
+    }
 }
