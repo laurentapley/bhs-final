@@ -439,10 +439,9 @@ textarea {
     float: right; }
   .collapse {
     background-color: #ffffff;
-    outline: solid 1px grey;
     margin-bottom: 50px;
     position: relative;
-    z-index: 1; }
+    z-index: 4; }
   .nav.navbar-nav li {
     width: 100%; }
   .nav.navbar-nav a {
@@ -782,10 +781,9 @@ footer {
     float: right; }
   .collapse {
     background-color: #ffffff;
-    outline: solid 1px grey;
     margin-bottom: 50px;
     position: relative;
-    z-index: 1; }
+    z-index: 4; }
   .nav.navbar-nav li {
     width: 100%; }
   .nav.navbar-nav a {

@@ -57,16 +57,15 @@
 =    TOGGLE DROP DOWN           =
 ================================*/
     .navbar-toggler {
-        position: relative;z-index: 99!important
-;
+        position: relative;
+        z-index: 99!important;
         float: right;
     }
     .collapse {
         background-color: $white;
-        outline: solid 1px grey;
         margin-bottom: 50px;
         position: relative;
-        z-index: 1;
+        z-index: 4;
     }
     .nav.navbar-nav {
         li {
@@ -81,6 +80,9 @@
     }
     footer {
         margin-top: 0px;
+    }
+    footer div {
+        border-left: 1px red solid;
     }
     aside {
         background-color: $mercury;
