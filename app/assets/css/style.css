@@ -402,17 +402,16 @@ textarea {
   .column-container div.body-text {
     display: block;
     width: 100%; }
-  aside {
-    padding: 0px; }
-  .testimonials {
-    width: 100%; }
-    .testimonials img {
-      display: none; } }
-
-/* Responsive Nav */
-@media screen and (max-width: 992px) {
-  header .donate {
-    display: none; }
+  footer {
+    margin-top: 0px; }
+    footer div {
+      border-left: none;
+      font-size: 1em;
+      border: none; }
+    footer .logos-footer {
+      float: right; }
+      footer .logos-footer img {
+        margin: 5px; }
   header .facebook-icon {
     display: none; }
   div.search-container {
@@ -430,31 +429,49 @@ textarea {
     content: none; }
   nav.main-nav li:first-child:before {
     content: " "; }
-  /*================================
-=    TOGGLE DROP DOWN           =
-================================*/
-  .navbar-toggler {
+  nav.main-nav .navbar-toggler {
     position: relative;
     z-index: 99 !important;
     float: right; }
-  .collapse {
-    background-color: #ffffff;
+  nav.main-nav .collapse {
+    background-color: #666666;
     margin-bottom: 50px;
     position: relative;
     z-index: 4; }
-  .nav.navbar-nav li {
+  nav.main-nav .nav.navbar-nav {
+    padding-top: 15px; }
+    nav.main-nav .nav.navbar-nav li {
+      width: 100%; }
+    nav.main-nav .nav.navbar-nav a {
+      color: #ffffff;
+      font-weight: normal;
+      margin-left: 0px;
+      width: 100%; }
+  aside .testimonials {
+    font-size: 2em;
+    width: 100%;
+    padding: 10px; }
+  aside img.test {
+    display: none; }
+  aside .btn-group {
+    width: 50%;
+    float: right; }
+  aside .testimonials-text {
     width: 100%; }
-  .nav.navbar-nav a {
-    color: #000000;
-    font-weight: bold;
-    margin-left: 0px;
-    width: 100%; }
-  footer {
-    margin-top: 0px; }
-  aside {
-    background-color: #e6e6e6; }
-    aside .img-date {
-      display: none; } }
+    aside .testimonials-text p {
+      padding: 0px;
+      width: 50%;
+      font-size: 1em; }
+  aside .img-fluid.img-date {
+    display: none; }
+  aside img.grad {
+    width: 40%; }
+  article {
+    font-size: 1.1em; } }
+
+@media screen and (max-width: 992px) {
+  header .donate {
+    display: none; } }
 
 header {
   position: relative;
@@ -469,7 +486,7 @@ header .facebook-icon {
 header .donate {
   position: absolute;
   top: 14px;
-  right: 0; }
+  right: 0px; }
 
 header .bhs-logo {
   position: absolute;
@@ -500,7 +517,7 @@ header .bhs-logo {
     left: 10px; } }
 
 div.search-container {
-  width: 25%;
+  width: 20%;
   height: 37px;
   background-color: white;
   border-radius: 20px;
@@ -515,11 +532,11 @@ div.search-container {
     font-size: 0.9em;
     height: auto;
     margin: 8px 5px 0px 12px;
-    width: 230px; }
+    width: 90%; }
   div.search-container .search-submit {
     position: absolute;
     top: 12px;
-    left: 255px; }
+    right: 15px; }
 
 .top-header {
   background: linear-gradient(#1b2935, #23446a);
@@ -652,8 +669,33 @@ body {
 main {
   background-color: #ffffff; }
 
+.main-img-div {
+  position: relative; }
+
+.main-img {
+  width: 120%; }
+
+div.img-caption {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%; }
+  div.img-caption h5 {
+    background-color: rgba(23, 63, 107, 0.8);
+    padding: 10px 10px 0px 10px;
+    margin: 0px;
+    width: 60%;
+    border-radius: 20px 20px 0px 0px; }
+  div.img-caption h6 {
+    background-color: rgba(23, 63, 107, 0.8);
+    padding: 0px 10px 10px 10px;
+    margin: 0px;
+    width: 100%; }
+
 .column-container {
-  padding: 20px; }
+  padding: 20px;
+  position: relative; }
   .column-container h2 {
     text-align: left;
     font-family: serif;
@@ -678,12 +720,15 @@ img.img-date {
   width: 100%; }
 
 footer {
-  background-color: #1f3347; }
+  background-color: #1f3347;
+  width: 100%; }
   footer div {
     display: inline;
+    width: 18%;
+    min-width: 200px;
     margin: 15px 0px;
     color: #fbfbfb;
-    font-size: .7em;
+    font-size: .9em;
     border-left: solid 1px #091f37; }
     footer div h4 {
       background-color: #091f37;
@@ -691,10 +736,14 @@ footer {
       text-align: center;
       font-size: 2em;
       padding: .5em;
-      min-width: 200px; }
-    footer div.logos-footer img {
-      margin: 5px;
-      display: inline-block; }
+      min-width: 180px; }
+    footer div.logos-footer {
+      height: 125px;
+      width: 213px;
+      padding: 0px; }
+      footer div.logos-footer img {
+        float: left;
+        margin: 5px; }
   footer .footer-first {
     border-left: 0px; }
   footer li {
@@ -744,17 +793,16 @@ footer {
   .column-container div.body-text {
     display: block;
     width: 100%; }
-  aside {
-    padding: 0px; }
-  .testimonials {
-    width: 100%; }
-    .testimonials img {
-      display: none; } }
-
-/* Responsive Nav */
-@media screen and (max-width: 992px) {
-  header .donate {
-    display: none; }
+  footer {
+    margin-top: 0px; }
+    footer div {
+      border-left: none;
+      font-size: 1em;
+      border: none; }
+    footer .logos-footer {
+      float: right; }
+      footer .logos-footer img {
+        margin: 5px; }
   header .facebook-icon {
     display: none; }
   div.search-container {
@@ -772,31 +820,49 @@ footer {
     content: none; }
   nav.main-nav li:first-child:before {
     content: " "; }
-  /*================================
-=    TOGGLE DROP DOWN           =
-================================*/
-  .navbar-toggler {
+  nav.main-nav .navbar-toggler {
     position: relative;
     z-index: 99 !important;
     float: right; }
-  .collapse {
-    background-color: #ffffff;
+  nav.main-nav .collapse {
+    background-color: #666666;
     margin-bottom: 50px;
     position: relative;
     z-index: 4; }
-  .nav.navbar-nav li {
+  nav.main-nav .nav.navbar-nav {
+    padding-top: 15px; }
+    nav.main-nav .nav.navbar-nav li {
+      width: 100%; }
+    nav.main-nav .nav.navbar-nav a {
+      color: #ffffff;
+      font-weight: normal;
+      margin-left: 0px;
+      width: 100%; }
+  aside .testimonials {
+    font-size: 2em;
+    width: 100%;
+    padding: 10px; }
+  aside img.test {
+    display: none; }
+  aside .btn-group {
+    width: 50%;
+    float: right; }
+  aside .testimonials-text {
     width: 100%; }
-  .nav.navbar-nav a {
-    color: #000000;
-    font-weight: bold;
-    margin-left: 0px;
-    width: 100%; }
-  footer {
-    margin-top: 0px; }
-  aside {
-    background-color: #e6e6e6; }
-    aside .img-date {
-      display: none; } }
+    aside .testimonials-text p {
+      padding: 0px;
+      width: 50%;
+      font-size: 1em; }
+  aside .img-fluid.img-date {
+    display: none; }
+  aside img.grad {
+    width: 40%; }
+  article {
+    font-size: 1.1em; } }
+
+@media screen and (max-width: 992px) {
+  header .donate {
+    display: none; } }
 
 @media print {
   * {

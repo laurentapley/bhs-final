@@ -27,8 +27,38 @@ main {
     background-color: $white;
 }
 
+.main-img-div {
+    position: relative;
+}
+
+.main-img {
+    width: 120%;
+}
+
+div.img-caption {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    h5 {
+        background-color: rgba(23, 63, 107, 0.8);
+        padding: 10px 10px 0px 10px;
+        margin: 0px;
+        width: 60%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    h6 {
+        background-color: rgba(23, 63, 107, 0.8);
+        padding: 0px 10px 10px 10px;
+        margin: 0px;
+        width: 100%;
+    }
+}
+
 .column-container {
     padding: 20px;
+    position: relative;
     h2 {
         text-align: left;
         font-family: serif;
@@ -57,5 +87,3 @@ main {
 img.img-date {
     width: 100%;
 }
-
-div.container.row {}

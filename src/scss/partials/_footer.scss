@@ -1,10 +1,13 @@
 footer {
     background-color: $blueZodiac;
+    width: 100%;
     div {
         display: inline;
+        width: 18%;
+        min-width: 200px;
         margin: 15px 0px;
         color: $alabaster;
-        font-size: .7em;
+        font-size: .9em;
         border-left: solid 1px $blackPearl;
         h4 {
             background-color: $blackPearl;
@@ -12,12 +15,15 @@ footer {
             text-align: center;
             font-size: 2em;
             padding: .5em;
-            min-width: 200px;
+            min-width: 180px;
         }
         &.logos-footer {
+            height: 125px;
+            width: 213px;
+            padding: 0px;
             img {
+                float: left;
                 margin: 5px;
-                display: inline-block;
             }
         }
     }
