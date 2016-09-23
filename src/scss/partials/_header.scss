@@ -1,65 +1,76 @@
-    header {
-        position: relative;
-        background: linear-gradient(#1b2935, #23446a);
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+%gradient {
+    background: linear-gradient(#1b2935, #23446a);
+}
+
+header {
+    position: relative;
+    @extend %gradient;
+}
+
+header .facebook-icon {
+    position: absolute;
+    top: 8px;
+    left: 380px;
+    padding: 9px 10px 0 15px;
+}
+
+header .donate {
+    position: absolute;
+    top: 14px;
+    right: 0px;
+}
+
+header .bhs-logo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 99;
+}
+
+header .bhs-logo {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        top: -200px;
+        left: 10px;
     }
-    
-    header .facebook-icon {
-        position: absolute;
-        top: 8px;
-        left: 380px;
-        padding: 9px 10px 0 15px;
-    }
-    
-    header .donate {
-        position: absolute;
-        top: 14px;
-        right: 0px;
-    }
-    
-    header .bhs-logo {
-        position: absolute;
+    to {
         top: 0px;
         left: 10px;
-        z-index: 99;
     }
-    
-    header .bhs-logo {
-        animation-duration: 3s;
-        animation-name: slidein;
+}
+
+div.search-container {
+    width: 20%;
+    height: 37px;
+    background-color: white;
+    @include border-radius($radius);
+    position: absolute;
+    top: 13px;
+    left: 530px;
+    .search-input {
+        background-color: transparent;
+        border: medium none;
+        color: $black;
+        float: left;
+        font-size: 0.9em;
+        height: auto;
+        margin: 8px 5px 0px 12px;
+        width: 90%;
     }
-    
-    @keyframes slidein {
-        from {
-            top: -200px;
-            left: 10px;
-        }
-        to {
-            top: 0px;
-            left: 10px;
-        }
-    }
-    
-    div.search-container {
-        width: 20%;
-        height: 37px;
-        background-color: white;
-        border-radius: 20px;
+    .search-submit {
         position: absolute;
-        top: 13px;
-        left: 530px;
-        .search-input {
-            background-color: transparent;
-            border: medium none;
-            color: $black;
-            float: left;
-            font-size: 0.9em;
-            height: auto;
-            margin: 8px 5px 0px 12px;
-            width: 90%;
-        }
-        .search-submit {
-            position: absolute;
-            top: 12px;
-            right: 15px;
-        }
+        top: 12px;
+        right: 15px;
     }
+}

@@ -131,6 +131,12 @@ gulp.task( 'html', function() {
   return gulp.src( currentEnv.src.html + '*.html' )
     .pipe( gulp.dest( currentEnv.dist.html ) );
 } );
+// TODAY FIXING GULP WATCH SASS
+// gulp.task( 'sass', function() {
+//   gulp.src( './sass/**/*.scss' )
+//     .pipe( sass().on( 'error', sass.logError ) )
+//     .pipe( gulp.dest( currentEnv.dist.css ) );
+// } );
 
 // vendor css
 
